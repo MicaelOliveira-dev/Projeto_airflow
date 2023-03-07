@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from server.routers.cotacaoController import cotacao
+from server import cotacao
 
 
 app = FastAPI(
