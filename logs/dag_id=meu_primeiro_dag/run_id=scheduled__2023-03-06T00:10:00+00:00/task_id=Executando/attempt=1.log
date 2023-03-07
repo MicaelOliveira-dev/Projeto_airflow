@@ -1,0 +1,32 @@
+[2023-03-07 14:25:59,577] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Executando scheduled__2023-03-06T00:10:00+00:00 [queued]>
+[2023-03-07 14:25:59,582] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Executando scheduled__2023-03-06T00:10:00+00:00 [queued]>
+[2023-03-07 14:25:59,582] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:25:59,582] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-07 14:25:59,582] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:25:59,649] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Executando> on 2023-03-06 00:10:00+00:00
+[2023-03-07 14:25:59,652] {standard_task_runner.py:52} INFO - Started process 62707 to run task
+[2023-03-07 14:25:59,657] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'Executando', 'scheduled__2023-03-06T00:10:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/cotacao_dolar.py', '--cfg-path', '/tmp/tmp88xp2158', '--error-file', '/tmp/tmpjdxhgacc']
+[2023-03-07 14:25:59,658] {standard_task_runner.py:80} INFO - Job 43: Subtask Executando
+[2023-03-07 14:25:59,844] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.Executando scheduled__2023-03-06T00:10:00+00:00 [running]> on host veripc-System-Product-Name
+[2023-03-07 14:26:00,063] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=Executando
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-06T00:10:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-06T00:10:00+00:00
+[2023-03-07 14:26:00,063] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/pymongo/collection.py", line 3207, in __call__
+    raise TypeError(
+TypeError: 'Collection' object is not callable. If you meant to call the 'cotacao' method on a 'Database' object it is failing because no such method exists.
+[2023-03-07 14:26:00,067] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=meu_primeiro_dag, task_id=Executando, execution_date=20230306T001000, start_date=20230307T172559, end_date=20230307T172600
+[2023-03-07 14:26:00,185] {standard_task_runner.py:92} ERROR - Failed to execute job 43 for task Executando ('Collection' object is not callable. If you meant to call the 'cotacao' method on a 'Database' object it is failing because no such method exists.; 62707)
+[2023-03-07 14:26:00,229] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-03-07 14:26:00,266] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

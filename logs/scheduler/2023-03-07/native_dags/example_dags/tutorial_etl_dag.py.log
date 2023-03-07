@@ -1388,3 +1388,528 @@
 [2023-03-07 14:08:02,525] {logging_mixin.py:115} INFO - [2023-03-07 14:08:02,525] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-03-07 14:08:02,539] {logging_mixin.py:115} INFO - [2023-03-07 14:08:02,539] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
 [2023-03-07 14:08:02,550] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.054 seconds
+[2023-03-07 14:12:12,560] {processor.py:153} INFO - Started process (PID=60404) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:12,561] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:12:12,562] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:12,578] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:12,595] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,595] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:12:12,608] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,608] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:12:12,621] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2023-03-07 14:12:45,973] {processor.py:153} INFO - Started process (PID=60490) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:45,975] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:12:45,977] {logging_mixin.py:115} INFO - [2023-03-07 14:12:45,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:45,991] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:12:46,006] {logging_mixin.py:115} INFO - [2023-03-07 14:12:46,006] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:12:46,019] {logging_mixin.py:115} INFO - [2023-03-07 14:12:46,018] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:12:46,026] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2023-03-07 14:13:19,609] {processor.py:153} INFO - Started process (PID=60562) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:19,611] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:13:19,612] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,612] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:19,626] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:19,643] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,643] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:19,657] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,657] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:13:19,664] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:13:52,889] {processor.py:153} INFO - Started process (PID=60640) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:52,890] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:13:52,891] {logging_mixin.py:115} INFO - [2023-03-07 14:13:52,891] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:52,903] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:13:52,921] {logging_mixin.py:115} INFO - [2023-03-07 14:13:52,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:52,933] {logging_mixin.py:115} INFO - [2023-03-07 14:13:52,933] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:13:52,941] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2023-03-07 14:14:26,589] {processor.py:153} INFO - Started process (PID=60733) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:26,589] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:14:26,590] {logging_mixin.py:115} INFO - [2023-03-07 14:14:26,590] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:26,599] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:26,616] {logging_mixin.py:115} INFO - [2023-03-07 14:14:26,616] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:14:26,629] {logging_mixin.py:115} INFO - [2023-03-07 14:14:26,629] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:14:26,637] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.052 seconds
+[2023-03-07 14:14:59,817] {processor.py:153} INFO - Started process (PID=60810) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:59,818] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:14:59,819] {logging_mixin.py:115} INFO - [2023-03-07 14:14:59,819] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:59,834] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:14:59,855] {logging_mixin.py:115} INFO - [2023-03-07 14:14:59,855] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:14:59,868] {logging_mixin.py:115} INFO - [2023-03-07 14:14:59,868] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:14:59,875] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:15:34,486] {processor.py:153} INFO - Started process (PID=60901) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:15:34,487] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:15:34,487] {logging_mixin.py:115} INFO - [2023-03-07 14:15:34,487] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:15:34,499] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:15:34,516] {logging_mixin.py:115} INFO - [2023-03-07 14:15:34,516] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:15:34,528] {logging_mixin.py:115} INFO - [2023-03-07 14:15:34,528] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:15:34,536] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.056 seconds
+[2023-03-07 14:16:09,299] {processor.py:153} INFO - Started process (PID=61004) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:09,301] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:16:09,302] {logging_mixin.py:115} INFO - [2023-03-07 14:16:09,302] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:09,317] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:09,339] {logging_mixin.py:115} INFO - [2023-03-07 14:16:09,339] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:16:09,354] {logging_mixin.py:115} INFO - [2023-03-07 14:16:09,354] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:16:09,363] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.070 seconds
+[2023-03-07 14:16:42,232] {processor.py:153} INFO - Started process (PID=61091) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:42,233] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:16:42,234] {logging_mixin.py:115} INFO - [2023-03-07 14:16:42,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:42,249] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:16:42,264] {logging_mixin.py:115} INFO - [2023-03-07 14:16:42,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:16:42,279] {logging_mixin.py:115} INFO - [2023-03-07 14:16:42,278] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:16:42,287] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:17:15,232] {processor.py:153} INFO - Started process (PID=61178) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:15,234] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:17:15,235] {logging_mixin.py:115} INFO - [2023-03-07 14:17:15,235] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:15,253] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:15,268] {logging_mixin.py:115} INFO - [2023-03-07 14:17:15,268] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:15,281] {logging_mixin.py:115} INFO - [2023-03-07 14:17:15,281] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:17:15,288] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2023-03-07 14:17:48,059] {processor.py:153} INFO - Started process (PID=61244) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:48,060] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:17:48,060] {logging_mixin.py:115} INFO - [2023-03-07 14:17:48,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:48,073] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:17:48,090] {logging_mixin.py:115} INFO - [2023-03-07 14:17:48,090] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:48,104] {logging_mixin.py:115} INFO - [2023-03-07 14:17:48,103] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:17:48,112] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.057 seconds
+[2023-03-07 14:18:21,235] {processor.py:153} INFO - Started process (PID=61368) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:21,237] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:18:21,240] {logging_mixin.py:115} INFO - [2023-03-07 14:18:21,239] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:21,256] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:21,271] {logging_mixin.py:115} INFO - [2023-03-07 14:18:21,271] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:21,283] {logging_mixin.py:115} INFO - [2023-03-07 14:18:21,283] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:18:21,290] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:18:53,776] {processor.py:153} INFO - Started process (PID=61486) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:53,776] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:18:53,777] {logging_mixin.py:115} INFO - [2023-03-07 14:18:53,777] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:53,782] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:18:53,791] {logging_mixin.py:115} INFO - [2023-03-07 14:18:53,791] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:53,801] {logging_mixin.py:115} INFO - [2023-03-07 14:18:53,801] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:18:53,809] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.035 seconds
+[2023-03-07 14:19:26,833] {processor.py:153} INFO - Started process (PID=61572) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:19:26,834] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:19:26,835] {logging_mixin.py:115} INFO - [2023-03-07 14:19:26,835] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:19:26,852] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:19:26,869] {logging_mixin.py:115} INFO - [2023-03-07 14:19:26,868] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:19:26,881] {logging_mixin.py:115} INFO - [2023-03-07 14:19:26,881] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:19:26,889] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:20:00,511] {processor.py:153} INFO - Started process (PID=61642) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:00,512] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:20:00,512] {logging_mixin.py:115} INFO - [2023-03-07 14:20:00,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:00,519] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:00,533] {logging_mixin.py:115} INFO - [2023-03-07 14:20:00,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:20:00,546] {logging_mixin.py:115} INFO - [2023-03-07 14:20:00,546] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:20:00,555] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2023-03-07 14:20:36,292] {processor.py:153} INFO - Started process (PID=61731) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:36,294] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:20:36,295] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,295] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:36,311] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:20:36,326] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,326] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:20:36,338] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,338] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:20:36,346] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2023-03-07 14:21:08,457] {processor.py:153} INFO - Started process (PID=61809) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:21:08,459] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:21:08,460] {logging_mixin.py:115} INFO - [2023-03-07 14:21:08,459] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:21:08,476] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:21:08,492] {logging_mixin.py:115} INFO - [2023-03-07 14:21:08,492] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:21:08,505] {logging_mixin.py:115} INFO - [2023-03-07 14:21:08,505] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:21:08,513] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:23:37,014] {processor.py:153} INFO - Started process (PID=62143) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:23:37,015] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:23:37,017] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,016] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:23:37,030] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:23:37,045] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,045] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:23:37,060] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,059] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:23:37,069] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:24:10,399] {processor.py:153} INFO - Started process (PID=62218) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:24:10,400] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:24:10,401] {logging_mixin.py:115} INFO - [2023-03-07 14:24:10,401] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:24:10,417] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:24:10,434] {logging_mixin.py:115} INFO - [2023-03-07 14:24:10,434] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:24:10,447] {logging_mixin.py:115} INFO - [2023-03-07 14:24:10,446] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:24:10,454] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:25:38,651] {processor.py:153} INFO - Started process (PID=62555) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:25:38,651] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:25:38,652] {logging_mixin.py:115} INFO - [2023-03-07 14:25:38,652] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:25:38,656] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:25:38,668] {logging_mixin.py:115} INFO - [2023-03-07 14:25:38,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:25:38,684] {logging_mixin.py:115} INFO - [2023-03-07 14:25:38,684] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:25:38,694] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2023-03-07 14:26:34,477] {processor.py:153} INFO - Started process (PID=62855) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:26:34,477] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:26:34,477] {logging_mixin.py:115} INFO - [2023-03-07 14:26:34,477] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:26:34,481] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:26:34,489] {logging_mixin.py:115} INFO - [2023-03-07 14:26:34,489] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:26:34,500] {logging_mixin.py:115} INFO - [2023-03-07 14:26:34,500] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:26:34,507] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.032 seconds
+[2023-03-07 14:27:09,696] {processor.py:153} INFO - Started process (PID=62981) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:09,697] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:27:09,698] {logging_mixin.py:115} INFO - [2023-03-07 14:27:09,698] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:09,707] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:09,724] {logging_mixin.py:115} INFO - [2023-03-07 14:27:09,724] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:27:09,739] {logging_mixin.py:115} INFO - [2023-03-07 14:27:09,739] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:27:09,746] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2023-03-07 14:27:59,618] {processor.py:153} INFO - Started process (PID=63202) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:59,619] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:27:59,620] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,620] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:59,635] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:27:59,651] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,651] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:27:59,666] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,666] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:27:59,675] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.065 seconds
+[2023-03-07 14:28:37,386] {processor.py:153} INFO - Started process (PID=63325) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:28:37,386] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:28:37,387] {logging_mixin.py:115} INFO - [2023-03-07 14:28:37,387] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:28:37,394] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:28:37,403] {logging_mixin.py:115} INFO - [2023-03-07 14:28:37,403] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:28:37,418] {logging_mixin.py:115} INFO - [2023-03-07 14:28:37,418] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:28:37,427] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2023-03-07 14:37:37,916] {processor.py:153} INFO - Started process (PID=64348) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:37:37,916] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:37:37,917] {logging_mixin.py:115} INFO - [2023-03-07 14:37:37,917] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:37:37,921] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:37:37,930] {logging_mixin.py:115} INFO - [2023-03-07 14:37:37,930] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:37:37,941] {logging_mixin.py:115} INFO - [2023-03-07 14:37:37,941] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:37:37,949] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2023-03-07 14:38:09,810] {processor.py:153} INFO - Started process (PID=64440) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:38:09,811] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:38:09,812] {logging_mixin.py:115} INFO - [2023-03-07 14:38:09,812] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:38:09,827] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:38:09,844] {logging_mixin.py:115} INFO - [2023-03-07 14:38:09,844] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:38:09,858] {logging_mixin.py:115} INFO - [2023-03-07 14:38:09,858] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:38:09,865] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:39:08,656] {processor.py:153} INFO - Started process (PID=64715) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:08,657] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:39:08,657] {logging_mixin.py:115} INFO - [2023-03-07 14:39:08,657] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:08,661] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:08,673] {logging_mixin.py:115} INFO - [2023-03-07 14:39:08,673] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:39:08,689] {logging_mixin.py:115} INFO - [2023-03-07 14:39:08,689] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:39:08,698] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2023-03-07 14:39:45,365] {processor.py:153} INFO - Started process (PID=64850) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:45,366] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:39:45,366] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,366] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:45,378] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:39:45,395] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,395] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:39:45,409] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,409] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:39:45,417] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.057 seconds
+[2023-03-07 14:40:21,283] {processor.py:153} INFO - Started process (PID=64937) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:21,284] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:40:21,286] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,285] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:21,303] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:21,319] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,319] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:21,336] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,336] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:40:21,347] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.071 seconds
+[2023-03-07 14:40:52,618] {processor.py:153} INFO - Started process (PID=65030) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:52,618] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:40:52,620] {logging_mixin.py:115} INFO - [2023-03-07 14:40:52,619] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:52,629] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:40:52,647] {logging_mixin.py:115} INFO - [2023-03-07 14:40:52,646] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:52,662] {logging_mixin.py:115} INFO - [2023-03-07 14:40:52,662] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:40:52,670] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.056 seconds
+[2023-03-07 14:41:26,566] {processor.py:153} INFO - Started process (PID=65126) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:41:26,567] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:41:26,567] {logging_mixin.py:115} INFO - [2023-03-07 14:41:26,567] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:41:26,573] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:41:26,583] {logging_mixin.py:115} INFO - [2023-03-07 14:41:26,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:41:26,595] {logging_mixin.py:115} INFO - [2023-03-07 14:41:26,594] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:41:26,603] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2023-03-07 14:42:17,058] {processor.py:153} INFO - Started process (PID=65346) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:17,058] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:42:17,059] {logging_mixin.py:115} INFO - [2023-03-07 14:42:17,058] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:17,063] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:17,073] {logging_mixin.py:115} INFO - [2023-03-07 14:42:17,073] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:42:17,093] {logging_mixin.py:115} INFO - [2023-03-07 14:42:17,092] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:42:17,109] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2023-03-07 14:42:50,195] {processor.py:153} INFO - Started process (PID=65439) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:50,195] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:42:50,196] {logging_mixin.py:115} INFO - [2023-03-07 14:42:50,196] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:50,204] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:42:50,212] {logging_mixin.py:115} INFO - [2023-03-07 14:42:50,212] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:42:50,225] {logging_mixin.py:115} INFO - [2023-03-07 14:42:50,225] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:42:50,234] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.040 seconds
+[2023-03-07 14:43:40,170] {processor.py:153} INFO - Started process (PID=65779) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:43:40,170] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:43:40,170] {logging_mixin.py:115} INFO - [2023-03-07 14:43:40,170] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:43:40,175] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:43:40,188] {logging_mixin.py:115} INFO - [2023-03-07 14:43:40,188] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:43:40,203] {logging_mixin.py:115} INFO - [2023-03-07 14:43:40,203] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:43:40,211] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2023-03-07 14:44:48,509] {processor.py:153} INFO - Started process (PID=66245) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:44:48,510] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:44:48,511] {logging_mixin.py:115} INFO - [2023-03-07 14:44:48,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:44:48,524] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:44:48,542] {logging_mixin.py:115} INFO - [2023-03-07 14:44:48,542] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:44:48,558] {logging_mixin.py:115} INFO - [2023-03-07 14:44:48,558] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:44:48,569] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:45:43,922] {processor.py:153} INFO - Started process (PID=66698) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:45:43,922] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:45:43,923] {logging_mixin.py:115} INFO - [2023-03-07 14:45:43,923] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:45:43,926] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:45:43,935] {logging_mixin.py:115} INFO - [2023-03-07 14:45:43,935] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:45:43,946] {logging_mixin.py:115} INFO - [2023-03-07 14:45:43,946] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:45:43,953] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2023-03-07 14:46:31,289] {processor.py:153} INFO - Started process (PID=67109) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:46:31,290] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:46:31,290] {logging_mixin.py:115} INFO - [2023-03-07 14:46:31,290] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:46:31,295] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:46:31,309] {logging_mixin.py:115} INFO - [2023-03-07 14:46:31,309] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:46:31,325] {logging_mixin.py:115} INFO - [2023-03-07 14:46:31,325] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:46:31,336] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds
+[2023-03-07 14:47:26,803] {processor.py:153} INFO - Started process (PID=67597) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:47:26,804] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:47:26,804] {logging_mixin.py:115} INFO - [2023-03-07 14:47:26,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:47:26,809] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:47:26,822] {logging_mixin.py:115} INFO - [2023-03-07 14:47:26,822] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:47:26,837] {logging_mixin.py:115} INFO - [2023-03-07 14:47:26,837] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:47:26,846] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2023-03-07 14:48:09,195] {processor.py:153} INFO - Started process (PID=67936) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:09,196] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:48:09,198] {logging_mixin.py:115} INFO - [2023-03-07 14:48:09,197] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:09,204] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:09,215] {logging_mixin.py:115} INFO - [2023-03-07 14:48:09,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:48:09,228] {logging_mixin.py:115} INFO - [2023-03-07 14:48:09,228] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:48:09,239] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2023-03-07 14:48:52,792] {processor.py:153} INFO - Started process (PID=68300) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:52,793] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:48:52,794] {logging_mixin.py:115} INFO - [2023-03-07 14:48:52,794] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:52,802] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:48:52,813] {logging_mixin.py:115} INFO - [2023-03-07 14:48:52,813] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:48:52,828] {logging_mixin.py:115} INFO - [2023-03-07 14:48:52,827] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:48:52,840] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.049 seconds
+[2023-03-07 14:49:41,119] {processor.py:153} INFO - Started process (PID=68644) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:49:41,120] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:49:41,122] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:49:41,137] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:49:41,152] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,151] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:49:41,166] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,166] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:49:41,174] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:50:20,351] {processor.py:153} INFO - Started process (PID=68884) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:50:20,352] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:50:20,352] {logging_mixin.py:115} INFO - [2023-03-07 14:50:20,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:50:20,356] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:50:20,365] {logging_mixin.py:115} INFO - [2023-03-07 14:50:20,365] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:50:20,376] {logging_mixin.py:115} INFO - [2023-03-07 14:50:20,376] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:50:20,384] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.034 seconds
+[2023-03-07 14:51:14,290] {processor.py:153} INFO - Started process (PID=69344) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:14,291] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:51:14,291] {logging_mixin.py:115} INFO - [2023-03-07 14:51:14,291] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:14,298] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:14,308] {logging_mixin.py:115} INFO - [2023-03-07 14:51:14,308] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:14,320] {logging_mixin.py:115} INFO - [2023-03-07 14:51:14,320] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:51:14,329] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2023-03-07 14:51:48,064] {processor.py:153} INFO - Started process (PID=69426) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:48,065] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:51:48,066] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,066] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:48,070] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:51:48,081] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:48,094] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,094] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:51:48,106] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2023-03-07 14:52:20,834] {processor.py:153} INFO - Started process (PID=69508) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:20,835] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:52:20,837] {logging_mixin.py:115} INFO - [2023-03-07 14:52:20,836] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:20,852] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:20,865] {logging_mixin.py:115} INFO - [2023-03-07 14:52:20,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:20,878] {logging_mixin.py:115} INFO - [2023-03-07 14:52:20,878] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:52:20,886] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2023-03-07 14:52:53,924] {processor.py:153} INFO - Started process (PID=69600) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:53,925] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:52:53,925] {logging_mixin.py:115} INFO - [2023-03-07 14:52:53,925] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:53,930] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:52:53,938] {logging_mixin.py:115} INFO - [2023-03-07 14:52:53,938] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:53,949] {logging_mixin.py:115} INFO - [2023-03-07 14:52:53,948] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:52:53,955] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.032 seconds
+[2023-03-07 14:53:28,705] {processor.py:153} INFO - Started process (PID=69686) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:53:28,706] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:53:28,706] {logging_mixin.py:115} INFO - [2023-03-07 14:53:28,706] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:53:28,717] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:53:28,736] {logging_mixin.py:115} INFO - [2023-03-07 14:53:28,736] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:53:28,761] {logging_mixin.py:115} INFO - [2023-03-07 14:53:28,761] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:53:28,771] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.070 seconds
+[2023-03-07 14:54:01,814] {processor.py:153} INFO - Started process (PID=69781) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:01,815] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:54:01,816] {logging_mixin.py:115} INFO - [2023-03-07 14:54:01,816] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:01,821] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:01,835] {logging_mixin.py:115} INFO - [2023-03-07 14:54:01,835] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:54:01,853] {logging_mixin.py:115} INFO - [2023-03-07 14:54:01,853] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:54:01,867] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.056 seconds
+[2023-03-07 14:54:37,800] {processor.py:153} INFO - Started process (PID=69862) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:37,800] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:54:37,801] {logging_mixin.py:115} INFO - [2023-03-07 14:54:37,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:37,813] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:54:37,830] {logging_mixin.py:115} INFO - [2023-03-07 14:54:37,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:54:37,845] {logging_mixin.py:115} INFO - [2023-03-07 14:54:37,845] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:54:37,854] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2023-03-07 14:55:10,183] {processor.py:153} INFO - Started process (PID=69973) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:10,184] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:55:10,185] {logging_mixin.py:115} INFO - [2023-03-07 14:55:10,185] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:10,196] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:10,215] {logging_mixin.py:115} INFO - [2023-03-07 14:55:10,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:10,231] {logging_mixin.py:115} INFO - [2023-03-07 14:55:10,231] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:55:10,240] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.061 seconds
+[2023-03-07 14:55:44,987] {processor.py:153} INFO - Started process (PID=70035) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:44,988] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:55:44,988] {logging_mixin.py:115} INFO - [2023-03-07 14:55:44,988] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:44,993] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:55:45,003] {logging_mixin.py:115} INFO - [2023-03-07 14:55:45,003] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:45,016] {logging_mixin.py:115} INFO - [2023-03-07 14:55:45,016] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:55:45,023] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.038 seconds
+[2023-03-07 14:56:16,976] {processor.py:153} INFO - Started process (PID=70123) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:16,978] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:56:16,979] {logging_mixin.py:115} INFO - [2023-03-07 14:56:16,978] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:16,996] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:17,012] {logging_mixin.py:115} INFO - [2023-03-07 14:56:17,012] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:56:17,027] {logging_mixin.py:115} INFO - [2023-03-07 14:56:17,027] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:56:17,034] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:56:57,191] {processor.py:153} INFO - Started process (PID=70243) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:57,196] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:56:57,198] {logging_mixin.py:115} INFO - [2023-03-07 14:56:57,197] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:57,213] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:56:57,228] {logging_mixin.py:115} INFO - [2023-03-07 14:56:57,228] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:56:57,242] {logging_mixin.py:115} INFO - [2023-03-07 14:56:57,242] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:56:57,313] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.128 seconds
+[2023-03-07 14:57:37,845] {processor.py:153} INFO - Started process (PID=70373) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:57:37,846] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:57:37,847] {logging_mixin.py:115} INFO - [2023-03-07 14:57:37,846] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:57:37,858] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:57:37,877] {logging_mixin.py:115} INFO - [2023-03-07 14:57:37,877] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:57:37,892] {logging_mixin.py:115} INFO - [2023-03-07 14:57:37,892] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:57:37,900] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.059 seconds
+[2023-03-07 14:58:11,931] {processor.py:153} INFO - Started process (PID=70491) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:11,933] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:58:11,934] {logging_mixin.py:115} INFO - [2023-03-07 14:58:11,934] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:11,950] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:11,967] {logging_mixin.py:115} INFO - [2023-03-07 14:58:11,967] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:58:11,981] {logging_mixin.py:115} INFO - [2023-03-07 14:58:11,981] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:58:11,989] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 14:58:45,881] {processor.py:153} INFO - Started process (PID=70568) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:45,882] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:58:45,883] {logging_mixin.py:115} INFO - [2023-03-07 14:58:45,883] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:45,898] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:58:45,913] {logging_mixin.py:115} INFO - [2023-03-07 14:58:45,913] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:58:45,926] {logging_mixin.py:115} INFO - [2023-03-07 14:58:45,926] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:58:45,934] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2023-03-07 14:59:21,754] {processor.py:153} INFO - Started process (PID=70647) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:21,756] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:59:21,757] {logging_mixin.py:115} INFO - [2023-03-07 14:59:21,757] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:21,772] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:21,787] {logging_mixin.py:115} INFO - [2023-03-07 14:59:21,787] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:21,802] {logging_mixin.py:115} INFO - [2023-03-07 14:59:21,801] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:59:21,809] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 14:59:53,411] {processor.py:153} INFO - Started process (PID=70750) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:53,411] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 14:59:53,412] {logging_mixin.py:115} INFO - [2023-03-07 14:59:53,412] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:53,418] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 14:59:53,432] {logging_mixin.py:115} INFO - [2023-03-07 14:59:53,432] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:53,447] {logging_mixin.py:115} INFO - [2023-03-07 14:59:53,446] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 14:59:53,456] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds
+[2023-03-07 15:00:28,403] {processor.py:153} INFO - Started process (PID=70847) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:00:28,405] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:00:28,406] {logging_mixin.py:115} INFO - [2023-03-07 15:00:28,406] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:00:28,422] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:00:28,439] {logging_mixin.py:115} INFO - [2023-03-07 15:00:28,438] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:00:28,453] {logging_mixin.py:115} INFO - [2023-03-07 15:00:28,453] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:00:28,460] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2023-03-07 15:01:01,379] {processor.py:153} INFO - Started process (PID=70913) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:01,380] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:01:01,381] {logging_mixin.py:115} INFO - [2023-03-07 15:01:01,381] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:01,397] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:01,414] {logging_mixin.py:115} INFO - [2023-03-07 15:01:01,414] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:01:01,428] {logging_mixin.py:115} INFO - [2023-03-07 15:01:01,428] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:01:01,436] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.064 seconds
+[2023-03-07 15:01:35,037] {processor.py:153} INFO - Started process (PID=71010) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:35,037] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:01:35,038] {logging_mixin.py:115} INFO - [2023-03-07 15:01:35,038] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:35,043] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:01:35,058] {logging_mixin.py:115} INFO - [2023-03-07 15:01:35,057] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:01:35,075] {logging_mixin.py:115} INFO - [2023-03-07 15:01:35,075] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:01:35,088] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2023-03-07 15:02:09,337] {processor.py:153} INFO - Started process (PID=71089) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:09,339] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:02:09,340] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,340] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:09,357] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:09,379] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:09,395] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,395] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:02:09,403] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.072 seconds
+[2023-03-07 15:02:41,722] {processor.py:153} INFO - Started process (PID=71191) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:41,723] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:02:41,724] {logging_mixin.py:115} INFO - [2023-03-07 15:02:41,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:41,732] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:02:41,749] {logging_mixin.py:115} INFO - [2023-03-07 15:02:41,749] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:41,770] {logging_mixin.py:115} INFO - [2023-03-07 15:02:41,770] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:02:41,786] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2023-03-07 15:03:13,850] {processor.py:153} INFO - Started process (PID=71285) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:13,851] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:03:13,853] {logging_mixin.py:115} INFO - [2023-03-07 15:03:13,853] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:13,867] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:13,881] {logging_mixin.py:115} INFO - [2023-03-07 15:03:13,881] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:13,894] {logging_mixin.py:115} INFO - [2023-03-07 15:03:13,894] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:03:13,901] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2023-03-07 15:03:49,772] {processor.py:153} INFO - Started process (PID=71350) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:49,774] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:03:49,775] {logging_mixin.py:115} INFO - [2023-03-07 15:03:49,775] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:49,791] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:03:49,806] {logging_mixin.py:115} INFO - [2023-03-07 15:03:49,806] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:49,820] {logging_mixin.py:115} INFO - [2023-03-07 15:03:49,820] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:03:49,828] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 15:04:23,901] {processor.py:153} INFO - Started process (PID=71447) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:23,903] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:04:23,904] {logging_mixin.py:115} INFO - [2023-03-07 15:04:23,904] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:23,920] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:23,936] {logging_mixin.py:115} INFO - [2023-03-07 15:04:23,936] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:04:23,951] {logging_mixin.py:115} INFO - [2023-03-07 15:04:23,950] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:04:23,962] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2023-03-07 15:04:57,003] {processor.py:153} INFO - Started process (PID=71515) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:57,004] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:04:57,006] {logging_mixin.py:115} INFO - [2023-03-07 15:04:57,005] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:57,019] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:04:57,035] {logging_mixin.py:115} INFO - [2023-03-07 15:04:57,035] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:04:57,048] {logging_mixin.py:115} INFO - [2023-03-07 15:04:57,048] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:04:57,056] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.058 seconds
+[2023-03-07 15:05:33,831] {processor.py:153} INFO - Started process (PID=71619) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:05:33,833] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:05:33,834] {logging_mixin.py:115} INFO - [2023-03-07 15:05:33,834] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:05:33,850] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:05:33,866] {logging_mixin.py:115} INFO - [2023-03-07 15:05:33,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:05:33,880] {logging_mixin.py:115} INFO - [2023-03-07 15:05:33,880] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:05:33,887] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 15:06:06,949] {processor.py:153} INFO - Started process (PID=71700) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:06,950] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:06:06,950] {logging_mixin.py:115} INFO - [2023-03-07 15:06:06,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:06,956] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:06,969] {logging_mixin.py:115} INFO - [2023-03-07 15:06:06,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:06,984] {logging_mixin.py:115} INFO - [2023-03-07 15:06:06,984] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:06:06,991] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2023-03-07 15:06:42,885] {processor.py:153} INFO - Started process (PID=71771) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:42,886] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:06:42,888] {logging_mixin.py:115} INFO - [2023-03-07 15:06:42,888] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:42,903] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:06:42,917] {logging_mixin.py:115} INFO - [2023-03-07 15:06:42,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:42,931] {logging_mixin.py:115} INFO - [2023-03-07 15:06:42,931] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:06:42,938] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2023-03-07 15:07:18,802] {processor.py:153} INFO - Started process (PID=71892) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:18,803] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:07:18,805] {logging_mixin.py:115} INFO - [2023-03-07 15:07:18,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:18,820] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:18,834] {logging_mixin.py:115} INFO - [2023-03-07 15:07:18,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:07:18,848] {logging_mixin.py:115} INFO - [2023-03-07 15:07:18,848] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:07:18,856] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.060 seconds
+[2023-03-07 15:07:51,433] {processor.py:153} INFO - Started process (PID=71969) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:51,433] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:07:51,434] {logging_mixin.py:115} INFO - [2023-03-07 15:07:51,434] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:51,438] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:07:51,446] {logging_mixin.py:115} INFO - [2023-03-07 15:07:51,446] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:07:51,457] {logging_mixin.py:115} INFO - [2023-03-07 15:07:51,457] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:07:51,464] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2023-03-07 15:08:26,161] {processor.py:153} INFO - Started process (PID=72077) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:08:26,163] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:08:26,164] {logging_mixin.py:115} INFO - [2023-03-07 15:08:26,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:08:26,179] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:08:26,193] {logging_mixin.py:115} INFO - [2023-03-07 15:08:26,193] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:08:26,207] {logging_mixin.py:115} INFO - [2023-03-07 15:08:26,207] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:08:26,217] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.062 seconds
+[2023-03-07 15:09:02,845] {processor.py:153} INFO - Started process (PID=72181) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:02,846] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:09:02,846] {logging_mixin.py:115} INFO - [2023-03-07 15:09:02,846] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:02,850] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:02,858] {logging_mixin.py:115} INFO - [2023-03-07 15:09:02,858] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:02,869] {logging_mixin.py:115} INFO - [2023-03-07 15:09:02,869] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:09:02,877] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.033 seconds
+[2023-03-07 15:09:35,863] {processor.py:153} INFO - Started process (PID=72284) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:35,863] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2023-03-07 15:09:35,864] {logging_mixin.py:115} INFO - [2023-03-07 15:09:35,864] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:35,871] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2023-03-07 15:09:35,885] {logging_mixin.py:115} INFO - [2023-03-07 15:09:35,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:35,901] {logging_mixin.py:115} INFO - [2023-03-07 15:09:35,900] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2023-03-07 15:09:35,908] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds

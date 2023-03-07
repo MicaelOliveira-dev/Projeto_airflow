@@ -1,0 +1,23 @@
+[2023-03-07 14:37:30,720] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Incluindo_router scheduled__2023-03-06T01:02:00+00:00 [queued]>
+[2023-03-07 14:37:30,725] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Incluindo_router scheduled__2023-03-06T01:02:00+00:00 [queued]>
+[2023-03-07 14:37:30,725] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:37:30,725] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-07 14:37:30,725] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:37:30,732] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Incluindo_router> on 2023-03-06 01:02:00+00:00
+[2023-03-07 14:37:30,737] {standard_task_runner.py:52} INFO - Started process 64335 to run task
+[2023-03-07 14:37:30,740] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'Incluindo_router', 'scheduled__2023-03-06T01:02:00+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/cotacao_dolar.py', '--cfg-path', '/tmp/tmp1srivgp9', '--error-file', '/tmp/tmpkxxxrtej']
+[2023-03-07 14:37:30,740] {standard_task_runner.py:80} INFO - Job 90: Subtask Incluindo_router
+[2023-03-07 14:37:30,763] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.Incluindo_router scheduled__2023-03-06T01:02:00+00:00 [running]> on host veripc-System-Product-Name
+[2023-03-07 14:37:30,865] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=Incluindo_router
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-06T01:02:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-06T01:02:00+00:00
+[2023-03-07 14:37:30,867] {python.py:173} INFO - Done. Returned value was: None
+[2023-03-07 14:37:30,873] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=meu_primeiro_dag, task_id=Incluindo_router, execution_date=20230306T010200, start_date=20230307T173730, end_date=20230307T173730
+[2023-03-07 14:37:30,911] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-07 14:37:30,931] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

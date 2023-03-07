@@ -14,7 +14,7 @@ class Cotacao:
             if response.status_code == 200:
                 data = json.loads(response.content)
                 bid_value = data['USDBRL']['bid']
-                db = DolarDatabase(get_connection())
+                db = DolarDatabase(mongo_connection.get_connection())
                 inserted_id = db.insert_document(bid_value)
                 return f"O Id da cotação é ID: {inserted_id}"
             else:

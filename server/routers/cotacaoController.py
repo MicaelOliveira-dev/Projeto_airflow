@@ -5,7 +5,7 @@ cotacao = APIRouter()
 
 
 @cotacao.get("/cotacao_dolar", status_code=status.HTTP_200_OK)
-async def Cotacao_dolar():
+async def cotacao_dolar():
     try:
         cotacao = Cotacao()
         return {"cotacao": cotacao.cotacao_dolar()}

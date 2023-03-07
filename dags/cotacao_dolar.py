@@ -1,14 +1,12 @@
 from airflow.models import DAG
 from airflow.utils.dates import datetime, timedelta
 from airflow.operators.python import PythonOperator
-from server.config.db import MongoConnection
+from server.consultas.scrapping import Cotacao
 
-def get_connection():
-    try:
-        mongo_connection = MongoConnection('dolar')
-        return mongo_connection.get_connection()
-    except Exception:
-        raise Exception
+def cotacao():
+    cotacao = Cotacao()
+    return cotacao.cotacao_dolar()
+
 
 with DAG(
         'meu_primeiro_dag',
@@ -16,9 +14,9 @@ with DAG(
         schedule_interval=timedelta(minutes=1)
 ) as dag:
 
-    task = PythonOperator(
-        task_id='Executando',
-        python_callable = get_connection()
+    task_one = PythonOperator(
+        task_id='executa_codigo',
+        python_callable = cotacao
     )
 
-    task
+    task_one

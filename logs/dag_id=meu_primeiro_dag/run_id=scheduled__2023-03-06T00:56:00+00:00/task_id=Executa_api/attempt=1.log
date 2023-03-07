@@ -1,0 +1,23 @@
+[2023-03-07 14:36:57,510] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Executa_api scheduled__2023-03-06T00:56:00+00:00 [queued]>
+[2023-03-07 14:36:57,516] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.Executa_api scheduled__2023-03-06T00:56:00+00:00 [queued]>
+[2023-03-07 14:36:57,516] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:36:57,516] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-07 14:36:57,516] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 14:36:57,529] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Executa_api> on 2023-03-06 00:56:00+00:00
+[2023-03-07 14:36:57,531] {standard_task_runner.py:52} INFO - Started process 64212 to run task
+[2023-03-07 14:36:57,533] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'Executa_api', 'scheduled__2023-03-06T00:56:00+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/cotacao_dolar.py', '--cfg-path', '/tmp/tmpakbgu1ok', '--error-file', '/tmp/tmpx8t6tf5s']
+[2023-03-07 14:36:57,534] {standard_task_runner.py:80} INFO - Job 71: Subtask Executa_api
+[2023-03-07 14:36:57,571] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.Executa_api scheduled__2023-03-06T00:56:00+00:00 [running]> on host veripc-System-Product-Name
+[2023-03-07 14:36:57,700] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=Executa_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-06T00:56:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-06T00:56:00+00:00
+[2023-03-07 14:36:57,701] {python.py:173} INFO - Done. Returned value was: None
+[2023-03-07 14:36:57,707] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=meu_primeiro_dag, task_id=Executa_api, execution_date=20230306T005600, start_date=20230307T173657, end_date=20230307T173657
+[2023-03-07 14:36:57,746] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-07 14:36:57,768] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

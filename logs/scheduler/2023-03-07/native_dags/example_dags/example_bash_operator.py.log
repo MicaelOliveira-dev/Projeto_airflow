@@ -1311,3 +1311,479 @@
 [2023-03-07 14:08:26,070] {logging_mixin.py:115} INFO - [2023-03-07 14:08:26,069] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-03-07 14:08:26,084] {logging_mixin.py:115} INFO - [2023-03-07 14:08:26,084] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
 [2023-03-07 14:08:26,097] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2023-03-07 14:12:27,674] {processor.py:153} INFO - Started process (PID=60455) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:12:27,675] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:12:27,676] {logging_mixin.py:115} INFO - [2023-03-07 14:12:27,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:12:27,695] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:12:27,707] {logging_mixin.py:115} INFO - [2023-03-07 14:12:27,707] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:12:27,719] {logging_mixin.py:115} INFO - [2023-03-07 14:12:27,719] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:12:27,727] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:13:01,584] {processor.py:153} INFO - Started process (PID=60522) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:01,586] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:13:01,588] {logging_mixin.py:115} INFO - [2023-03-07 14:13:01,588] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:01,604] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:01,617] {logging_mixin.py:115} INFO - [2023-03-07 14:13:01,617] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:01,629] {logging_mixin.py:115} INFO - [2023-03-07 14:13:01,629] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:13:01,636] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.059 seconds
+[2023-03-07 14:13:36,350] {processor.py:153} INFO - Started process (PID=60601) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:36,351] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:13:36,352] {logging_mixin.py:115} INFO - [2023-03-07 14:13:36,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:36,373] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:13:36,387] {logging_mixin.py:115} INFO - [2023-03-07 14:13:36,387] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:36,400] {logging_mixin.py:115} INFO - [2023-03-07 14:13:36,400] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:13:36,408] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.065 seconds
+[2023-03-07 14:14:10,271] {processor.py:153} INFO - Started process (PID=60689) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:10,272] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:14:10,273] {logging_mixin.py:115} INFO - [2023-03-07 14:14:10,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:10,291] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:10,304] {logging_mixin.py:115} INFO - [2023-03-07 14:14:10,304] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:14:10,317] {logging_mixin.py:115} INFO - [2023-03-07 14:14:10,317] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:14:10,325] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.061 seconds
+[2023-03-07 14:14:46,162] {processor.py:153} INFO - Started process (PID=60774) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:46,163] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:14:46,165] {logging_mixin.py:115} INFO - [2023-03-07 14:14:46,165] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:46,190] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:14:46,205] {logging_mixin.py:115} INFO - [2023-03-07 14:14:46,205] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:14:46,218] {logging_mixin.py:115} INFO - [2023-03-07 14:14:46,218] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:14:46,226] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.071 seconds
+[2023-03-07 14:15:20,048] {processor.py:153} INFO - Started process (PID=60865) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:20,050] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:15:20,051] {logging_mixin.py:115} INFO - [2023-03-07 14:15:20,051] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:20,070] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:20,084] {logging_mixin.py:115} INFO - [2023-03-07 14:15:20,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:15:20,096] {logging_mixin.py:115} INFO - [2023-03-07 14:15:20,096] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:15:20,103] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:15:56,137] {processor.py:153} INFO - Started process (PID=60967) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:56,138] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:15:56,140] {logging_mixin.py:115} INFO - [2023-03-07 14:15:56,140] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:56,157] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:15:56,170] {logging_mixin.py:115} INFO - [2023-03-07 14:15:56,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:15:56,182] {logging_mixin.py:115} INFO - [2023-03-07 14:15:56,182] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:15:56,191] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.061 seconds
+[2023-03-07 14:16:28,130] {processor.py:153} INFO - Started process (PID=61061) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:16:28,131] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:16:28,132] {logging_mixin.py:115} INFO - [2023-03-07 14:16:28,132] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:16:28,151] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:16:28,165] {logging_mixin.py:115} INFO - [2023-03-07 14:16:28,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:16:28,178] {logging_mixin.py:115} INFO - [2023-03-07 14:16:28,178] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:16:28,186] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.060 seconds
+[2023-03-07 14:17:02,496] {processor.py:153} INFO - Started process (PID=61146) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:02,497] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:17:02,498] {logging_mixin.py:115} INFO - [2023-03-07 14:17:02,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:02,521] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:02,535] {logging_mixin.py:115} INFO - [2023-03-07 14:17:02,535] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:02,548] {logging_mixin.py:115} INFO - [2023-03-07 14:17:02,548] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:17:02,558] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
+[2023-03-07 14:17:38,916] {processor.py:153} INFO - Started process (PID=61222) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:38,917] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:17:38,918] {logging_mixin.py:115} INFO - [2023-03-07 14:17:38,918] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:38,933] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:17:38,947] {logging_mixin.py:115} INFO - [2023-03-07 14:17:38,947] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:38,959] {logging_mixin.py:115} INFO - [2023-03-07 14:17:38,959] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:17:38,967] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2023-03-07 14:18:12,178] {processor.py:153} INFO - Started process (PID=61294) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:12,179] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:18:12,179] {logging_mixin.py:115} INFO - [2023-03-07 14:18:12,179] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:12,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:12,195] {logging_mixin.py:115} INFO - [2023-03-07 14:18:12,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:12,205] {logging_mixin.py:115} INFO - [2023-03-07 14:18:12,205] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:18:12,214] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.037 seconds
+[2023-03-07 14:18:47,174] {processor.py:153} INFO - Started process (PID=61466) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:47,175] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:18:47,176] {logging_mixin.py:115} INFO - [2023-03-07 14:18:47,176] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:47,197] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:18:47,211] {logging_mixin.py:115} INFO - [2023-03-07 14:18:47,211] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:47,223] {logging_mixin.py:115} INFO - [2023-03-07 14:18:47,223] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:18:47,232] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.065 seconds
+[2023-03-07 14:19:23,107] {processor.py:153} INFO - Started process (PID=61566) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:23,108] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:19:23,110] {logging_mixin.py:115} INFO - [2023-03-07 14:19:23,110] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:23,131] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:23,145] {logging_mixin.py:115} INFO - [2023-03-07 14:19:23,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:19:23,158] {logging_mixin.py:115} INFO - [2023-03-07 14:19:23,157] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:19:23,165] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.064 seconds
+[2023-03-07 14:19:56,525] {processor.py:153} INFO - Started process (PID=61635) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:56,526] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:19:56,527] {logging_mixin.py:115} INFO - [2023-03-07 14:19:56,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:56,550] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:19:56,564] {logging_mixin.py:115} INFO - [2023-03-07 14:19:56,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:19:56,577] {logging_mixin.py:115} INFO - [2023-03-07 14:19:56,577] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:19:56,587] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
+[2023-03-07 14:20:34,022] {processor.py:153} INFO - Started process (PID=61716) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:20:34,024] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:20:34,025] {logging_mixin.py:115} INFO - [2023-03-07 14:20:34,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:20:34,049] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:20:34,063] {logging_mixin.py:115} INFO - [2023-03-07 14:20:34,063] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:20:34,076] {logging_mixin.py:115} INFO - [2023-03-07 14:20:34,076] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:20:34,084] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:21:06,690] {processor.py:153} INFO - Started process (PID=61801) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:21:06,691] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:21:06,692] {logging_mixin.py:115} INFO - [2023-03-07 14:21:06,692] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:21:06,714] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:21:06,728] {logging_mixin.py:115} INFO - [2023-03-07 14:21:06,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:21:06,741] {logging_mixin.py:115} INFO - [2023-03-07 14:21:06,741] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:21:06,748] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.066 seconds
+[2023-03-07 14:23:52,098] {processor.py:153} INFO - Started process (PID=62179) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:23:52,100] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:23:52,100] {logging_mixin.py:115} INFO - [2023-03-07 14:23:52,100] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:23:52,114] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:23:52,125] {logging_mixin.py:115} INFO - [2023-03-07 14:23:52,125] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:23:52,140] {logging_mixin.py:115} INFO - [2023-03-07 14:23:52,140] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:23:52,153] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.060 seconds
+[2023-03-07 14:24:26,959] {processor.py:153} INFO - Started process (PID=62252) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:24:26,960] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:24:26,961] {logging_mixin.py:115} INFO - [2023-03-07 14:24:26,961] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:24:26,982] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:24:26,995] {logging_mixin.py:115} INFO - [2023-03-07 14:24:26,995] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:24:27,008] {logging_mixin.py:115} INFO - [2023-03-07 14:24:27,008] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:24:27,016] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.064 seconds
+[2023-03-07 14:26:05,349] {processor.py:153} INFO - Started process (PID=62733) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:05,356] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:26:05,357] {logging_mixin.py:115} INFO - [2023-03-07 14:26:05,357] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:05,379] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:05,393] {logging_mixin.py:115} INFO - [2023-03-07 14:26:05,393] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:26:05,408] {logging_mixin.py:115} INFO - [2023-03-07 14:26:05,408] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:26:05,482] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.138 seconds
+[2023-03-07 14:26:50,327] {processor.py:153} INFO - Started process (PID=62930) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:50,328] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:26:50,328] {logging_mixin.py:115} INFO - [2023-03-07 14:26:50,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:50,334] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:26:50,343] {logging_mixin.py:115} INFO - [2023-03-07 14:26:50,343] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:26:50,356] {logging_mixin.py:115} INFO - [2023-03-07 14:26:50,356] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:26:50,364] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.038 seconds
+[2023-03-07 14:27:25,679] {processor.py:153} INFO - Started process (PID=63012) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:27:25,680] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:27:25,681] {logging_mixin.py:115} INFO - [2023-03-07 14:27:25,681] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:27:25,698] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:27:25,711] {logging_mixin.py:115} INFO - [2023-03-07 14:27:25,711] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:27:25,725] {logging_mixin.py:115} INFO - [2023-03-07 14:27:25,725] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:27:25,734] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:28:14,747] {processor.py:153} INFO - Started process (PID=63240) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:28:14,748] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:28:14,750] {logging_mixin.py:115} INFO - [2023-03-07 14:28:14,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:28:14,773] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:28:14,787] {logging_mixin.py:115} INFO - [2023-03-07 14:28:14,787] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:28:14,801] {logging_mixin.py:115} INFO - [2023-03-07 14:28:14,801] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:28:14,809] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
+[2023-03-07 14:37:53,094] {processor.py:153} INFO - Started process (PID=64391) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:37:53,095] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:37:53,096] {logging_mixin.py:115} INFO - [2023-03-07 14:37:53,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:37:53,110] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:37:53,124] {logging_mixin.py:115} INFO - [2023-03-07 14:37:53,124] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:37:53,138] {logging_mixin.py:115} INFO - [2023-03-07 14:37:53,138] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:37:53,145] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.054 seconds
+[2023-03-07 14:39:27,495] {processor.py:153} INFO - Started process (PID=64804) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:39:27,496] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:39:27,497] {logging_mixin.py:115} INFO - [2023-03-07 14:39:27,497] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:39:27,512] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:39:27,529] {logging_mixin.py:115} INFO - [2023-03-07 14:39:27,529] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:39:27,546] {logging_mixin.py:115} INFO - [2023-03-07 14:39:27,545] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:39:27,556] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.063 seconds
+[2023-03-07 14:40:02,488] {processor.py:153} INFO - Started process (PID=64891) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:02,489] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:40:02,490] {logging_mixin.py:115} INFO - [2023-03-07 14:40:02,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:02,509] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:02,522] {logging_mixin.py:115} INFO - [2023-03-07 14:40:02,522] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:02,536] {logging_mixin.py:115} INFO - [2023-03-07 14:40:02,536] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:40:02,544] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:40:37,048] {processor.py:153} INFO - Started process (PID=64970) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:37,050] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:40:37,051] {logging_mixin.py:115} INFO - [2023-03-07 14:40:37,051] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:37,071] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:40:37,084] {logging_mixin.py:115} INFO - [2023-03-07 14:40:37,084] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:37,098] {logging_mixin.py:115} INFO - [2023-03-07 14:40:37,098] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:40:37,105] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.063 seconds
+[2023-03-07 14:41:09,180] {processor.py:153} INFO - Started process (PID=65074) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:41:09,181] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:41:09,181] {logging_mixin.py:115} INFO - [2023-03-07 14:41:09,181] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:41:09,191] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:41:09,205] {logging_mixin.py:115} INFO - [2023-03-07 14:41:09,205] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:41:09,220] {logging_mixin.py:115} INFO - [2023-03-07 14:41:09,220] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:41:09,227] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.050 seconds
+[2023-03-07 14:42:32,206] {processor.py:153} INFO - Started process (PID=65382) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:42:32,207] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:42:32,207] {logging_mixin.py:115} INFO - [2023-03-07 14:42:32,207] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:42:32,217] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:42:32,228] {logging_mixin.py:115} INFO - [2023-03-07 14:42:32,228] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:42:32,242] {logging_mixin.py:115} INFO - [2023-03-07 14:42:32,242] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:42:32,252] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.051 seconds
+[2023-03-07 14:43:14,383] {processor.py:153} INFO - Started process (PID=65554) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:43:14,384] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:43:14,384] {logging_mixin.py:115} INFO - [2023-03-07 14:43:14,384] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:43:14,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:43:14,399] {logging_mixin.py:115} INFO - [2023-03-07 14:43:14,399] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:43:14,410] {logging_mixin.py:115} INFO - [2023-03-07 14:43:14,410] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:43:14,417] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.036 seconds
+[2023-03-07 14:44:22,712] {processor.py:153} INFO - Started process (PID=66096) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:44:22,734] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:44:22,734] {logging_mixin.py:115} INFO - [2023-03-07 14:44:22,734] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:44:22,743] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:44:22,758] {logging_mixin.py:115} INFO - [2023-03-07 14:44:22,758] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:44:22,779] {logging_mixin.py:115} INFO - [2023-03-07 14:44:22,779] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:44:22,897] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.187 seconds
+[2023-03-07 14:45:29,345] {processor.py:153} INFO - Started process (PID=66597) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:45:29,346] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:45:29,346] {logging_mixin.py:115} INFO - [2023-03-07 14:45:29,346] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:45:29,356] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:45:29,368] {logging_mixin.py:115} INFO - [2023-03-07 14:45:29,368] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:45:29,383] {logging_mixin.py:115} INFO - [2023-03-07 14:45:29,382] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:45:29,392] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.049 seconds
+[2023-03-07 14:46:21,936] {processor.py:153} INFO - Started process (PID=67032) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:46:21,936] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:46:21,937] {logging_mixin.py:115} INFO - [2023-03-07 14:46:21,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:46:21,943] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:46:21,952] {logging_mixin.py:115} INFO - [2023-03-07 14:46:21,952] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:46:21,964] {logging_mixin.py:115} INFO - [2023-03-07 14:46:21,964] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:46:21,973] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.039 seconds
+[2023-03-07 14:47:18,583] {processor.py:153} INFO - Started process (PID=67527) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:47:18,584] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:47:18,584] {logging_mixin.py:115} INFO - [2023-03-07 14:47:18,584] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:47:18,591] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:47:18,599] {logging_mixin.py:115} INFO - [2023-03-07 14:47:18,599] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:47:18,611] {logging_mixin.py:115} INFO - [2023-03-07 14:47:18,611] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:47:18,618] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.037 seconds
+[2023-03-07 14:48:20,484] {processor.py:153} INFO - Started process (PID=68023) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:48:20,484] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:48:20,485] {logging_mixin.py:115} INFO - [2023-03-07 14:48:20,485] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:48:20,503] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:48:20,520] {logging_mixin.py:115} INFO - [2023-03-07 14:48:20,520] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:48:20,536] {logging_mixin.py:115} INFO - [2023-03-07 14:48:20,536] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:48:20,544] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.065 seconds
+[2023-03-07 14:49:20,715] {processor.py:153} INFO - Started process (PID=68532) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:49:20,716] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:49:20,717] {logging_mixin.py:115} INFO - [2023-03-07 14:49:20,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:49:20,740] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:49:20,754] {logging_mixin.py:115} INFO - [2023-03-07 14:49:20,754] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:49:20,768] {logging_mixin.py:115} INFO - [2023-03-07 14:49:20,768] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:49:20,775] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:50:01,751] {processor.py:153} INFO - Started process (PID=68721) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:50:01,752] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:50:01,752] {logging_mixin.py:115} INFO - [2023-03-07 14:50:01,752] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:50:01,771] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:50:01,786] {logging_mixin.py:115} INFO - [2023-03-07 14:50:01,786] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:50:01,803] {logging_mixin.py:115} INFO - [2023-03-07 14:50:01,803] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:50:01,814] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:51:07,875] {processor.py:153} INFO - Started process (PID=69312) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:07,876] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:51:07,877] {logging_mixin.py:115} INFO - [2023-03-07 14:51:07,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:07,888] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:07,899] {logging_mixin.py:115} INFO - [2023-03-07 14:51:07,899] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:07,915] {logging_mixin.py:115} INFO - [2023-03-07 14:51:07,915] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:51:07,923] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.050 seconds
+[2023-03-07 14:51:41,961] {processor.py:153} INFO - Started process (PID=69412) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:41,962] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:51:41,962] {logging_mixin.py:115} INFO - [2023-03-07 14:51:41,962] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:41,973] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:51:41,987] {logging_mixin.py:115} INFO - [2023-03-07 14:51:41,987] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:42,005] {logging_mixin.py:115} INFO - [2023-03-07 14:51:42,004] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:51:42,016] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.057 seconds
+[2023-03-07 14:52:16,081] {processor.py:153} INFO - Started process (PID=69501) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:16,083] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:52:16,084] {logging_mixin.py:115} INFO - [2023-03-07 14:52:16,084] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:16,104] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:16,121] {logging_mixin.py:115} INFO - [2023-03-07 14:52:16,121] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:16,136] {logging_mixin.py:115} INFO - [2023-03-07 14:52:16,136] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:52:16,143] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:52:49,934] {processor.py:153} INFO - Started process (PID=69595) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:49,935] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:52:49,936] {logging_mixin.py:115} INFO - [2023-03-07 14:52:49,936] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:49,955] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:52:49,971] {logging_mixin.py:115} INFO - [2023-03-07 14:52:49,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:49,986] {logging_mixin.py:115} INFO - [2023-03-07 14:52:49,986] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:52:49,995] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.068 seconds
+[2023-03-07 14:53:25,306] {processor.py:153} INFO - Started process (PID=69681) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:25,307] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:53:25,307] {logging_mixin.py:115} INFO - [2023-03-07 14:53:25,307] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:25,325] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:25,342] {logging_mixin.py:115} INFO - [2023-03-07 14:53:25,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:53:25,356] {logging_mixin.py:115} INFO - [2023-03-07 14:53:25,356] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:53:25,363] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:53:59,538] {processor.py:153} INFO - Started process (PID=69772) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:59,539] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:53:59,539] {logging_mixin.py:115} INFO - [2023-03-07 14:53:59,539] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:59,553] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:53:59,566] {logging_mixin.py:115} INFO - [2023-03-07 14:53:59,566] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:53:59,581] {logging_mixin.py:115} INFO - [2023-03-07 14:53:59,581] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:53:59,591] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.059 seconds
+[2023-03-07 14:54:39,364] {processor.py:153} INFO - Started process (PID=69864) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:54:39,365] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:54:39,367] {logging_mixin.py:115} INFO - [2023-03-07 14:54:39,366] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:54:39,388] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:54:39,403] {logging_mixin.py:115} INFO - [2023-03-07 14:54:39,403] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:54:39,417] {logging_mixin.py:115} INFO - [2023-03-07 14:54:39,417] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:54:39,425] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:55:18,335] {processor.py:153} INFO - Started process (PID=69987) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:18,336] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:55:18,338] {logging_mixin.py:115} INFO - [2023-03-07 14:55:18,337] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:18,360] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:18,374] {logging_mixin.py:115} INFO - [2023-03-07 14:55:18,374] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:18,388] {logging_mixin.py:115} INFO - [2023-03-07 14:55:18,388] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:55:18,395] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 14:55:55,284] {processor.py:153} INFO - Started process (PID=70061) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:55,285] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:55:55,286] {logging_mixin.py:115} INFO - [2023-03-07 14:55:55,286] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:55,307] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:55:55,322] {logging_mixin.py:115} INFO - [2023-03-07 14:55:55,322] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:55,336] {logging_mixin.py:115} INFO - [2023-03-07 14:55:55,336] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:55:55,343] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.065 seconds
+[2023-03-07 14:56:30,373] {processor.py:153} INFO - Started process (PID=70160) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:56:30,374] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:56:30,375] {logging_mixin.py:115} INFO - [2023-03-07 14:56:30,375] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:56:30,393] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:56:30,409] {logging_mixin.py:115} INFO - [2023-03-07 14:56:30,409] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:56:30,424] {logging_mixin.py:115} INFO - [2023-03-07 14:56:30,424] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:56:30,431] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.062 seconds
+[2023-03-07 14:57:23,570] {processor.py:153} INFO - Started process (PID=70339) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:23,571] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:57:23,573] {logging_mixin.py:115} INFO - [2023-03-07 14:57:23,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:23,595] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:23,610] {logging_mixin.py:115} INFO - [2023-03-07 14:57:23,610] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:57:23,625] {logging_mixin.py:115} INFO - [2023-03-07 14:57:23,625] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:57:23,634] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
+[2023-03-07 14:57:58,404] {processor.py:153} INFO - Started process (PID=70442) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:58,405] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:57:58,406] {logging_mixin.py:115} INFO - [2023-03-07 14:57:58,406] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:58,419] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:57:58,430] {logging_mixin.py:115} INFO - [2023-03-07 14:57:58,430] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:57:58,443] {logging_mixin.py:115} INFO - [2023-03-07 14:57:58,443] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:57:58,451] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.053 seconds
+[2023-03-07 14:58:36,729] {processor.py:153} INFO - Started process (PID=70539) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:58:36,730] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:58:36,731] {logging_mixin.py:115} INFO - [2023-03-07 14:58:36,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:58:36,753] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:58:36,767] {logging_mixin.py:115} INFO - [2023-03-07 14:58:36,767] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:58:36,780] {logging_mixin.py:115} INFO - [2023-03-07 14:58:36,780] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:58:36,788] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.066 seconds
+[2023-03-07 14:59:14,024] {processor.py:153} INFO - Started process (PID=70631) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:14,025] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:59:14,025] {logging_mixin.py:115} INFO - [2023-03-07 14:59:14,025] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:14,037] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:14,052] {logging_mixin.py:115} INFO - [2023-03-07 14:59:14,052] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:14,068] {logging_mixin.py:115} INFO - [2023-03-07 14:59:14,068] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:59:14,075] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.055 seconds
+[2023-03-07 14:59:47,434] {processor.py:153} INFO - Started process (PID=70735) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:47,436] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 14:59:47,438] {logging_mixin.py:115} INFO - [2023-03-07 14:59:47,437] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:47,460] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 14:59:47,474] {logging_mixin.py:115} INFO - [2023-03-07 14:59:47,474] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:47,488] {logging_mixin.py:115} INFO - [2023-03-07 14:59:47,488] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 14:59:47,497] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.070 seconds
+[2023-03-07 15:00:23,697] {processor.py:153} INFO - Started process (PID=70837) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:23,699] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:00:23,700] {logging_mixin.py:115} INFO - [2023-03-07 15:00:23,700] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:23,720] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:23,733] {logging_mixin.py:115} INFO - [2023-03-07 15:00:23,733] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:00:23,749] {logging_mixin.py:115} INFO - [2023-03-07 15:00:23,749] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:00:23,758] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.066 seconds
+[2023-03-07 15:00:56,250] {processor.py:153} INFO - Started process (PID=70907) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:56,251] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:00:56,253] {logging_mixin.py:115} INFO - [2023-03-07 15:00:56,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:56,272] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:00:56,286] {logging_mixin.py:115} INFO - [2023-03-07 15:00:56,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:00:56,299] {logging_mixin.py:115} INFO - [2023-03-07 15:00:56,299] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:00:56,307] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.063 seconds
+[2023-03-07 15:01:33,301] {processor.py:153} INFO - Started process (PID=71001) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:01:33,302] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:01:33,303] {logging_mixin.py:115} INFO - [2023-03-07 15:01:33,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:01:33,315] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:01:33,329] {logging_mixin.py:115} INFO - [2023-03-07 15:01:33,328] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:01:33,343] {logging_mixin.py:115} INFO - [2023-03-07 15:01:33,343] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:01:33,354] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.058 seconds
+[2023-03-07 15:02:11,016] {processor.py:153} INFO - Started process (PID=71094) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:11,017] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:02:11,017] {logging_mixin.py:115} INFO - [2023-03-07 15:02:11,017] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:11,025] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:11,035] {logging_mixin.py:115} INFO - [2023-03-07 15:02:11,035] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:11,049] {logging_mixin.py:115} INFO - [2023-03-07 15:02:11,048] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:02:11,058] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.044 seconds
+[2023-03-07 15:02:46,400] {processor.py:153} INFO - Started process (PID=71196) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:46,400] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:02:46,401] {logging_mixin.py:115} INFO - [2023-03-07 15:02:46,401] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:46,408] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:02:46,418] {logging_mixin.py:115} INFO - [2023-03-07 15:02:46,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:46,431] {logging_mixin.py:115} INFO - [2023-03-07 15:02:46,431] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:02:46,440] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.041 seconds
+[2023-03-07 15:03:21,269] {processor.py:153} INFO - Started process (PID=71297) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:21,270] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:03:21,272] {logging_mixin.py:115} INFO - [2023-03-07 15:03:21,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:21,295] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:21,308] {logging_mixin.py:115} INFO - [2023-03-07 15:03:21,308] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:21,322] {logging_mixin.py:115} INFO - [2023-03-07 15:03:21,322] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:03:21,330] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2023-03-07 15:03:55,513] {processor.py:153} INFO - Started process (PID=71367) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:55,514] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:03:55,515] {logging_mixin.py:115} INFO - [2023-03-07 15:03:55,515] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:55,539] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:03:55,554] {logging_mixin.py:115} INFO - [2023-03-07 15:03:55,554] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:55,568] {logging_mixin.py:115} INFO - [2023-03-07 15:03:55,568] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:03:55,577] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.070 seconds
+[2023-03-07 15:04:30,779] {processor.py:153} INFO - Started process (PID=71470) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:04:30,780] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:04:30,781] {logging_mixin.py:115} INFO - [2023-03-07 15:04:30,781] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:04:30,804] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:04:30,818] {logging_mixin.py:115} INFO - [2023-03-07 15:04:30,818] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:04:30,832] {logging_mixin.py:115} INFO - [2023-03-07 15:04:30,832] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:04:30,841] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.068 seconds
+[2023-03-07 15:05:06,733] {processor.py:153} INFO - Started process (PID=71554) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:06,734] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:05:06,735] {logging_mixin.py:115} INFO - [2023-03-07 15:05:06,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:06,746] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:06,760] {logging_mixin.py:115} INFO - [2023-03-07 15:05:06,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:05:06,776] {logging_mixin.py:115} INFO - [2023-03-07 15:05:06,776] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:05:06,786] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.058 seconds
+[2023-03-07 15:05:41,240] {processor.py:153} INFO - Started process (PID=71629) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:41,241] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:05:41,243] {logging_mixin.py:115} INFO - [2023-03-07 15:05:41,242] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:41,266] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:05:41,280] {logging_mixin.py:115} INFO - [2023-03-07 15:05:41,280] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:05:41,294] {logging_mixin.py:115} INFO - [2023-03-07 15:05:41,294] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:05:41,303] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.069 seconds
+[2023-03-07 15:06:17,933] {processor.py:153} INFO - Started process (PID=71718) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:17,934] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:06:17,935] {logging_mixin.py:115} INFO - [2023-03-07 15:06:17,935] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:17,959] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:17,974] {logging_mixin.py:115} INFO - [2023-03-07 15:06:17,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:17,988] {logging_mixin.py:115} INFO - [2023-03-07 15:06:17,988] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:06:17,996] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.070 seconds
+[2023-03-07 15:06:52,022] {processor.py:153} INFO - Started process (PID=71792) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:52,022] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:06:52,023] {logging_mixin.py:115} INFO - [2023-03-07 15:06:52,023] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:52,034] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:06:52,042] {logging_mixin.py:115} INFO - [2023-03-07 15:06:52,042] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:52,057] {logging_mixin.py:115} INFO - [2023-03-07 15:06:52,057] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:06:52,068] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.048 seconds
+[2023-03-07 15:07:31,183] {processor.py:153} INFO - Started process (PID=71923) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:07:31,185] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:07:31,186] {logging_mixin.py:115} INFO - [2023-03-07 15:07:31,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:07:31,209] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:07:31,224] {logging_mixin.py:115} INFO - [2023-03-07 15:07:31,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:07:31,238] {logging_mixin.py:115} INFO - [2023-03-07 15:07:31,238] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:07:31,247] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.070 seconds
+[2023-03-07 15:08:07,851] {processor.py:153} INFO - Started process (PID=72016) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:07,852] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:08:07,853] {logging_mixin.py:115} INFO - [2023-03-07 15:08:07,853] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:07,876] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:07,894] {logging_mixin.py:115} INFO - [2023-03-07 15:08:07,894] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:08:07,916] {logging_mixin.py:115} INFO - [2023-03-07 15:08:07,916] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:08:07,925] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.079 seconds
+[2023-03-07 15:08:40,554] {processor.py:153} INFO - Started process (PID=72111) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:40,555] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:08:40,556] {logging_mixin.py:115} INFO - [2023-03-07 15:08:40,556] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:40,581] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:08:40,596] {logging_mixin.py:115} INFO - [2023-03-07 15:08:40,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:08:40,611] {logging_mixin.py:115} INFO - [2023-03-07 15:08:40,611] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:08:40,618] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.071 seconds
+[2023-03-07 15:09:21,396] {processor.py:153} INFO - Started process (PID=72231) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:21,398] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:09:21,399] {logging_mixin.py:115} INFO - [2023-03-07 15:09:21,399] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:21,418] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:21,432] {logging_mixin.py:115} INFO - [2023-03-07 15:09:21,432] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:21,446] {logging_mixin.py:115} INFO - [2023-03-07 15:09:21,446] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:09:21,455] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.064 seconds
+[2023-03-07 15:09:56,371] {processor.py:153} INFO - Started process (PID=72342) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:56,372] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-03-07 15:09:56,374] {logging_mixin.py:115} INFO - [2023-03-07 15:09:56,373] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:56,383] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-03-07 15:09:56,391] {logging_mixin.py:115} INFO - [2023-03-07 15:09:56,391] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:56,402] {logging_mixin.py:115} INFO - [2023-03-07 15:09:56,402] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-03-06T00:00:00+00:00, run_after=2023-03-07T00:00:00+00:00
+[2023-03-07 15:09:56,409] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.045 seconds

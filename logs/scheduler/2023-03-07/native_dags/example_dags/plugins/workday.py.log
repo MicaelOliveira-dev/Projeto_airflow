@@ -978,3 +978,368 @@
 [2023-03-07 14:08:06,977] {logging_mixin.py:115} INFO - [2023-03-07 14:08:06,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2023-03-07 14:08:06,979] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2023-03-07 14:08:06,985] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2023-03-07 14:12:17,360] {processor.py:153} INFO - Started process (PID=60410) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:17,361] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:12:17,363] {logging_mixin.py:115} INFO - [2023-03-07 14:12:17,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:17,367] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:17,389] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2023-03-07 14:12:51,104] {processor.py:153} INFO - Started process (PID=60497) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:51,106] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:12:51,107] {logging_mixin.py:115} INFO - [2023-03-07 14:12:51,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:51,112] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:12:51,126] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2023-03-07 14:13:24,290] {processor.py:153} INFO - Started process (PID=60573) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:24,291] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:13:24,293] {logging_mixin.py:115} INFO - [2023-03-07 14:13:24,292] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:24,298] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:24,314] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 14:13:58,038] {processor.py:153} INFO - Started process (PID=60651) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:58,039] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:13:58,040] {logging_mixin.py:115} INFO - [2023-03-07 14:13:58,040] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:58,042] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:13:58,049] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2023-03-07 14:14:31,678] {processor.py:153} INFO - Started process (PID=60747) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:14:31,679] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:14:31,680] {logging_mixin.py:115} INFO - [2023-03-07 14:14:31,680] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:14:31,685] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:14:31,700] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 14:15:04,760] {processor.py:153} INFO - Started process (PID=60827) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:04,761] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:15:04,761] {logging_mixin.py:115} INFO - [2023-03-07 14:15:04,761] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:04,762] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:04,768] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:15:39,632] {processor.py:153} INFO - Started process (PID=60908) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:39,634] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:15:39,635] {logging_mixin.py:115} INFO - [2023-03-07 14:15:39,634] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:39,639] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:15:39,656] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 14:16:14,260] {processor.py:153} INFO - Started process (PID=61014) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:14,261] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:16:14,262] {logging_mixin.py:115} INFO - [2023-03-07 14:16:14,262] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:14,265] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:14,276] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2023-03-07 14:16:46,383] {processor.py:153} INFO - Started process (PID=61103) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:46,385] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:16:46,386] {logging_mixin.py:115} INFO - [2023-03-07 14:16:46,386] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:46,391] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:16:46,408] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 14:17:20,612] {processor.py:153} INFO - Started process (PID=61191) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:20,612] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:17:20,613] {logging_mixin.py:115} INFO - [2023-03-07 14:17:20,613] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:20,617] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:20,633] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2023-03-07 14:17:52,048] {processor.py:153} INFO - Started process (PID=61257) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:52,049] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:17:52,049] {logging_mixin.py:115} INFO - [2023-03-07 14:17:52,049] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:52,050] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:17:52,056] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:18:26,359] {processor.py:153} INFO - Started process (PID=61398) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:18:26,360] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:18:26,361] {logging_mixin.py:115} INFO - [2023-03-07 14:18:26,361] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:18:26,366] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:18:26,389] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2023-03-07 14:19:00,071] {processor.py:153} INFO - Started process (PID=61502) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:00,072] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:19:00,073] {logging_mixin.py:115} INFO - [2023-03-07 14:19:00,073] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:00,077] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:00,096] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2023-03-07 14:19:35,971] {processor.py:153} INFO - Started process (PID=61590) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:35,973] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:19:35,974] {logging_mixin.py:115} INFO - [2023-03-07 14:19:35,974] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:35,979] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:19:35,994] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2023-03-07 14:20:10,219] {processor.py:153} INFO - Started process (PID=61659) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:10,220] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:20:10,222] {logging_mixin.py:115} INFO - [2023-03-07 14:20:10,221] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:10,227] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:10,245] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2023-03-07 14:20:43,853] {processor.py:153} INFO - Started process (PID=61752) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:43,854] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:20:43,854] {logging_mixin.py:115} INFO - [2023-03-07 14:20:43,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:43,857] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:20:43,870] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2023-03-07 14:23:41,815] {processor.py:153} INFO - Started process (PID=62149) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:23:41,815] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:23:41,816] {logging_mixin.py:115} INFO - [2023-03-07 14:23:41,816] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:23:41,817] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:23:41,823] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2023-03-07 14:24:15,524] {processor.py:153} INFO - Started process (PID=62226) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:24:15,525] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:24:15,526] {logging_mixin.py:115} INFO - [2023-03-07 14:24:15,525] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:24:15,527] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:24:15,533] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2023-03-07 14:25:46,324] {processor.py:153} INFO - Started process (PID=62609) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:25:46,324] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:25:46,325] {logging_mixin.py:115} INFO - [2023-03-07 14:25:46,324] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:25:46,326] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:25:46,332] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2023-03-07 14:26:39,343] {processor.py:153} INFO - Started process (PID=62878) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:26:39,344] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:26:39,345] {logging_mixin.py:115} INFO - [2023-03-07 14:26:39,345] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:26:39,348] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:26:39,359] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2023-03-07 14:27:14,836] {processor.py:153} INFO - Started process (PID=62987) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:27:14,838] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:27:14,838] {logging_mixin.py:115} INFO - [2023-03-07 14:27:14,838] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:27:14,840] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:27:14,853] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2023-03-07 14:28:04,402] {processor.py:153} INFO - Started process (PID=63214) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:04,403] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:28:04,403] {logging_mixin.py:115} INFO - [2023-03-07 14:28:04,403] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:04,405] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:04,419] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2023-03-07 14:28:43,866] {processor.py:153} INFO - Started process (PID=63347) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:43,866] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:28:43,867] {logging_mixin.py:115} INFO - [2023-03-07 14:28:43,867] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:43,869] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:28:43,878] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2023-03-07 14:37:42,922] {processor.py:153} INFO - Started process (PID=64361) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:37:42,923] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:37:42,924] {logging_mixin.py:115} INFO - [2023-03-07 14:37:42,924] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:37:42,926] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:37:42,939] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2023-03-07 14:38:13,810] {processor.py:153} INFO - Started process (PID=64459) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:38:13,811] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:38:13,812] {logging_mixin.py:115} INFO - [2023-03-07 14:38:13,812] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:38:13,817] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:38:13,835] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2023-03-07 14:39:17,347] {processor.py:153} INFO - Started process (PID=64740) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:17,348] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:39:17,348] {logging_mixin.py:115} INFO - [2023-03-07 14:39:17,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:17,351] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:17,362] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2023-03-07 14:39:50,249] {processor.py:153} INFO - Started process (PID=64865) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:50,250] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:39:50,251] {logging_mixin.py:115} INFO - [2023-03-07 14:39:50,251] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:50,254] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:39:50,271] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2023-03-07 14:40:25,771] {processor.py:153} INFO - Started process (PID=64947) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:25,773] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:40:25,774] {logging_mixin.py:115} INFO - [2023-03-07 14:40:25,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:25,778] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:25,792] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2023-03-07 14:40:57,308] {processor.py:153} INFO - Started process (PID=65037) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:57,309] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:40:57,310] {logging_mixin.py:115} INFO - [2023-03-07 14:40:57,310] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:57,313] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:40:57,327] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2023-03-07 14:41:31,286] {processor.py:153} INFO - Started process (PID=65139) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:41:31,286] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:41:31,287] {logging_mixin.py:115} INFO - [2023-03-07 14:41:31,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:41:31,288] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:41:31,293] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:42:22,059] {processor.py:153} INFO - Started process (PID=65358) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:22,060] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:42:22,060] {logging_mixin.py:115} INFO - [2023-03-07 14:42:22,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:22,062] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:22,074] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2023-03-07 14:42:56,642] {processor.py:153} INFO - Started process (PID=65458) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:56,642] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:42:56,642] {logging_mixin.py:115} INFO - [2023-03-07 14:42:56,642] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:56,643] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:42:56,652] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.012 seconds
+[2023-03-07 14:43:47,967] {processor.py:153} INFO - Started process (PID=65853) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:43:47,967] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:43:47,967] {logging_mixin.py:115} INFO - [2023-03-07 14:43:47,967] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:43:47,969] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:43:47,974] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:44:56,975] {processor.py:153} INFO - Started process (PID=66324) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:44:56,975] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:44:56,976] {logging_mixin.py:115} INFO - [2023-03-07 14:44:56,976] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:44:56,977] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:44:56,987] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds
+[2023-03-07 14:45:52,022] {processor.py:153} INFO - Started process (PID=66751) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:45:52,022] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:45:52,023] {logging_mixin.py:115} INFO - [2023-03-07 14:45:52,023] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:45:52,024] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:45:52,030] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2023-03-07 14:46:37,527] {processor.py:153} INFO - Started process (PID=67165) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:46:37,528] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:46:37,529] {logging_mixin.py:115} INFO - [2023-03-07 14:46:37,529] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:46:37,532] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:46:37,543] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2023-03-07 14:47:34,954] {processor.py:153} INFO - Started process (PID=67666) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:47:34,955] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:47:34,955] {logging_mixin.py:115} INFO - [2023-03-07 14:47:34,955] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:47:34,956] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:47:34,968] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2023-03-07 14:48:37,901] {processor.py:153} INFO - Started process (PID=68171) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:48:37,902] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:48:37,903] {logging_mixin.py:115} INFO - [2023-03-07 14:48:37,902] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:48:37,905] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:48:37,913] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.014 seconds
+[2023-03-07 14:49:34,503] {processor.py:153} INFO - Started process (PID=68636) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:49:34,504] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:49:34,504] {logging_mixin.py:115} INFO - [2023-03-07 14:49:34,504] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:49:34,507] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:49:34,517] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2023-03-07 14:50:22,701] {processor.py:153} INFO - Started process (PID=68900) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:50:22,702] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:50:22,703] {logging_mixin.py:115} INFO - [2023-03-07 14:50:22,702] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:50:22,706] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:50:22,722] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2023-03-07 14:51:17,683] {processor.py:153} INFO - Started process (PID=69347) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:17,684] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:51:17,684] {logging_mixin.py:115} INFO - [2023-03-07 14:51:17,684] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:17,687] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:17,695] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2023-03-07 14:51:51,106] {processor.py:153} INFO - Started process (PID=69431) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:51,106] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:51:51,106] {logging_mixin.py:115} INFO - [2023-03-07 14:51:51,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:51,108] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:51:51,113] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:52:24,224] {processor.py:153} INFO - Started process (PID=69519) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:24,225] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:52:24,226] {logging_mixin.py:115} INFO - [2023-03-07 14:52:24,225] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:24,228] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:24,244] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2023-03-07 14:52:56,815] {processor.py:153} INFO - Started process (PID=69609) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:56,817] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:52:56,818] {logging_mixin.py:115} INFO - [2023-03-07 14:52:56,818] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:56,821] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:52:56,833] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2023-03-07 14:53:32,714] {processor.py:153} INFO - Started process (PID=69696) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:53:32,715] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:53:32,717] {logging_mixin.py:115} INFO - [2023-03-07 14:53:32,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:53:32,721] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:53:32,732] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2023-03-07 14:54:12,539] {processor.py:153} INFO - Started process (PID=69808) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:12,540] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:54:12,540] {logging_mixin.py:115} INFO - [2023-03-07 14:54:12,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:12,543] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:12,556] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2023-03-07 14:54:45,622] {processor.py:153} INFO - Started process (PID=69880) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:45,623] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:54:45,623] {logging_mixin.py:115} INFO - [2023-03-07 14:54:45,623] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:45,626] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:54:45,641] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2023-03-07 14:55:21,597] {processor.py:153} INFO - Started process (PID=69990) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:21,598] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:55:21,599] {logging_mixin.py:115} INFO - [2023-03-07 14:55:21,599] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:21,603] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:21,622] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2023-03-07 14:55:54,674] {processor.py:153} INFO - Started process (PID=70060) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:54,675] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:55:54,676] {logging_mixin.py:115} INFO - [2023-03-07 14:55:54,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:54,680] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:55:54,694] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2023-03-07 14:56:28,363] {processor.py:153} INFO - Started process (PID=70151) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:56:28,363] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:56:28,363] {logging_mixin.py:115} INFO - [2023-03-07 14:56:28,363] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:56:28,365] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:56:28,370] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 14:57:09,424] {processor.py:153} INFO - Started process (PID=70303) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:09,425] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:57:09,425] {logging_mixin.py:115} INFO - [2023-03-07 14:57:09,425] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:09,427] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:09,438] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2023-03-07 14:57:42,699] {processor.py:153} INFO - Started process (PID=70389) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:42,700] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:57:42,701] {logging_mixin.py:115} INFO - [2023-03-07 14:57:42,701] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:42,706] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:57:42,723] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 14:58:18,464] {processor.py:153} INFO - Started process (PID=70499) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:18,465] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:58:18,466] {logging_mixin.py:115} INFO - [2023-03-07 14:58:18,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:18,471] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:18,487] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2023-03-07 14:58:51,333] {processor.py:153} INFO - Started process (PID=70577) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:51,334] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:58:51,335] {logging_mixin.py:115} INFO - [2023-03-07 14:58:51,335] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:51,340] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:58:51,356] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 14:59:24,353] {processor.py:153} INFO - Started process (PID=70651) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:24,354] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:59:24,355] {logging_mixin.py:115} INFO - [2023-03-07 14:59:24,355] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:24,360] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:24,376] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 14:59:59,977] {processor.py:153} INFO - Started process (PID=70771) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:59,979] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 14:59:59,980] {logging_mixin.py:115} INFO - [2023-03-07 14:59:59,980] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:59,984] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 14:59:59,996] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2023-03-07 15:00:33,835] {processor.py:153} INFO - Started process (PID=70859) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:00:33,836] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:00:33,838] {logging_mixin.py:115} INFO - [2023-03-07 15:00:33,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:00:33,842] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:00:33,853] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2023-03-07 15:01:06,636] {processor.py:153} INFO - Started process (PID=70943) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:06,637] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:01:06,638] {logging_mixin.py:115} INFO - [2023-03-07 15:01:06,638] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:06,643] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:06,659] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 15:01:42,448] {processor.py:153} INFO - Started process (PID=71023) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:42,449] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:01:42,450] {logging_mixin.py:115} INFO - [2023-03-07 15:01:42,450] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:42,454] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:01:42,473] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 15:02:20,569] {processor.py:153} INFO - Started process (PID=71130) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:20,571] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:02:20,572] {logging_mixin.py:115} INFO - [2023-03-07 15:02:20,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:20,576] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:20,593] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 15:02:54,273] {processor.py:153} INFO - Started process (PID=71217) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:54,274] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:02:54,274] {logging_mixin.py:115} INFO - [2023-03-07 15:02:54,274] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:54,275] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:02:54,284] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.013 seconds
+[2023-03-07 15:03:31,482] {processor.py:153} INFO - Started process (PID=71315) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:03:31,484] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:03:31,485] {logging_mixin.py:115} INFO - [2023-03-07 15:03:31,484] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:03:31,489] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:03:31,507] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 15:04:05,028] {processor.py:153} INFO - Started process (PID=71402) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:05,029] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:04:05,031] {logging_mixin.py:115} INFO - [2023-03-07 15:04:05,030] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:05,035] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:05,051] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2023-03-07 15:04:37,874] {processor.py:153} INFO - Started process (PID=71485) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:37,875] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:04:37,876] {logging_mixin.py:115} INFO - [2023-03-07 15:04:37,876] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:37,881] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:04:37,898] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 15:05:15,578] {processor.py:153} INFO - Started process (PID=71573) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:15,579] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:05:15,580] {logging_mixin.py:115} INFO - [2023-03-07 15:05:15,580] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:15,585] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:15,601] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 15:05:49,251] {processor.py:153} INFO - Started process (PID=71645) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:49,252] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:05:49,254] {logging_mixin.py:115} INFO - [2023-03-07 15:05:49,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:49,258] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:05:49,277] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2023-03-07 15:06:26,648] {processor.py:153} INFO - Started process (PID=71737) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:26,649] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:06:26,651] {logging_mixin.py:115} INFO - [2023-03-07 15:06:26,650] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:26,655] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:26,671] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-03-07 15:06:59,581] {processor.py:153} INFO - Started process (PID=71814) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:59,582] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:06:59,582] {logging_mixin.py:115} INFO - [2023-03-07 15:06:59,582] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:59,584] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:06:59,595] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2023-03-07 15:07:33,570] {processor.py:153} INFO - Started process (PID=71926) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:07:33,570] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:07:33,570] {logging_mixin.py:115} INFO - [2023-03-07 15:07:33,570] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:07:33,571] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:07:33,577] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds
+[2023-03-07 15:08:06,715] {processor.py:153} INFO - Started process (PID=72015) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:06,716] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:08:06,717] {logging_mixin.py:115} INFO - [2023-03-07 15:08:06,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:06,722] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:06,741] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2023-03-07 15:08:39,843] {processor.py:153} INFO - Started process (PID=72110) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:39,844] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:08:39,845] {logging_mixin.py:115} INFO - [2023-03-07 15:08:39,845] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:39,850] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:08:39,867] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2023-03-07 15:09:19,265] {processor.py:153} INFO - Started process (PID=72222) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:19,266] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:09:19,266] {logging_mixin.py:115} INFO - [2023-03-07 15:09:19,266] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:19,267] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:19,273] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.010 seconds
+[2023-03-07 15:09:54,065] {processor.py:153} INFO - Started process (PID=72340) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:54,066] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-03-07 15:09:54,066] {logging_mixin.py:115} INFO - [2023-03-07 15:09:54,066] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:54,067] {processor.py:653} WARNING - No viable dags retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-03-07 15:09:54,073] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.009 seconds

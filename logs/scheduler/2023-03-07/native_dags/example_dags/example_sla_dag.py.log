@@ -1388,3 +1388,528 @@
 [2023-03-07 14:08:03,421] {logging_mixin.py:115} INFO - [2023-03-07 14:08:03,421] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-03-07 14:08:03,436] {logging_mixin.py:115} INFO - [2023-03-07 14:08:03,436] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:06:00+00:00, run_after=2023-03-07T17:08:00+00:00
 [2023-03-07 14:08:03,448] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2023-03-07 14:12:12,834] {processor.py:153} INFO - Started process (PID=60405) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:12,836] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:12:12,837] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:12,870] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:12,881] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,881] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:12:12,894] {logging_mixin.py:115} INFO - [2023-03-07 14:12:12,894] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:10:00+00:00, run_after=2023-03-07T17:12:00+00:00
+[2023-03-07 14:12:12,901] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2023-03-07 14:12:47,102] {processor.py:153} INFO - Started process (PID=60491) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:47,103] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:12:47,104] {logging_mixin.py:115} INFO - [2023-03-07 14:12:47,104] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:47,134] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:12:47,145] {logging_mixin.py:115} INFO - [2023-03-07 14:12:47,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:12:47,158] {logging_mixin.py:115} INFO - [2023-03-07 14:12:47,158] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:10:00+00:00, run_after=2023-03-07T17:12:00+00:00
+[2023-03-07 14:12:47,166] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2023-03-07 14:13:19,744] {processor.py:153} INFO - Started process (PID=60563) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:19,745] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:13:19,745] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,745] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:19,755] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:19,763] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,763] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:19,775] {logging_mixin.py:115} INFO - [2023-03-07 14:13:19,774] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:10:00+00:00, run_after=2023-03-07T17:12:00+00:00
+[2023-03-07 14:13:19,782] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.039 seconds
+[2023-03-07 14:13:54,023] {processor.py:153} INFO - Started process (PID=60641) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:54,024] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:13:54,026] {logging_mixin.py:115} INFO - [2023-03-07 14:13:54,026] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:54,055] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:13:54,065] {logging_mixin.py:115} INFO - [2023-03-07 14:13:54,065] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:13:54,078] {logging_mixin.py:115} INFO - [2023-03-07 14:13:54,077] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:10:00+00:00, run_after=2023-03-07T17:12:00+00:00
+[2023-03-07 14:13:54,085] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2023-03-07 14:14:27,791] {processor.py:153} INFO - Started process (PID=60735) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:14:27,791] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:14:27,792] {logging_mixin.py:115} INFO - [2023-03-07 14:14:27,792] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:14:27,811] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:14:27,824] {logging_mixin.py:115} INFO - [2023-03-07 14:14:27,824] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:14:27,840] {logging_mixin.py:115} INFO - [2023-03-07 14:14:27,839] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:12:00+00:00, run_after=2023-03-07T17:14:00+00:00
+[2023-03-07 14:14:27,848] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.059 seconds
+[2023-03-07 14:15:00,948] {processor.py:153} INFO - Started process (PID=60816) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:00,950] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:15:00,951] {logging_mixin.py:115} INFO - [2023-03-07 14:15:00,951] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:00,978] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:00,989] {logging_mixin.py:115} INFO - [2023-03-07 14:15:00,989] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:15:01,002] {logging_mixin.py:115} INFO - [2023-03-07 14:15:01,002] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:12:00+00:00, run_after=2023-03-07T17:14:00+00:00
+[2023-03-07 14:15:01,009] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2023-03-07 14:15:35,619] {processor.py:153} INFO - Started process (PID=60902) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:35,620] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:15:35,622] {logging_mixin.py:115} INFO - [2023-03-07 14:15:35,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:35,650] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:15:35,661] {logging_mixin.py:115} INFO - [2023-03-07 14:15:35,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:15:35,673] {logging_mixin.py:115} INFO - [2023-03-07 14:15:35,673] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:12:00+00:00, run_after=2023-03-07T17:14:00+00:00
+[2023-03-07 14:15:35,680] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 14:16:10,440] {processor.py:153} INFO - Started process (PID=61010) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:10,442] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:16:10,443] {logging_mixin.py:115} INFO - [2023-03-07 14:16:10,443] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:10,474] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:10,487] {logging_mixin.py:115} INFO - [2023-03-07 14:16:10,487] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:16:10,500] {logging_mixin.py:115} INFO - [2023-03-07 14:16:10,500] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:14:00+00:00, run_after=2023-03-07T17:16:00+00:00
+[2023-03-07 14:16:10,507] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds
+[2023-03-07 14:16:43,360] {processor.py:153} INFO - Started process (PID=61092) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:43,361] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:16:43,362] {logging_mixin.py:115} INFO - [2023-03-07 14:16:43,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:43,391] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:16:43,401] {logging_mixin.py:115} INFO - [2023-03-07 14:16:43,401] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:16:43,414] {logging_mixin.py:115} INFO - [2023-03-07 14:16:43,414] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:14:00+00:00, run_after=2023-03-07T17:16:00+00:00
+[2023-03-07 14:16:43,422] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 14:17:16,090] {processor.py:153} INFO - Started process (PID=61179) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:16,091] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:17:16,092] {logging_mixin.py:115} INFO - [2023-03-07 14:17:16,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:16,123] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:16,134] {logging_mixin.py:115} INFO - [2023-03-07 14:17:16,134] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:16,147] {logging_mixin.py:115} INFO - [2023-03-07 14:17:16,147] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:14:00+00:00, run_after=2023-03-07T17:16:00+00:00
+[2023-03-07 14:17:16,155] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 14:17:49,192] {processor.py:153} INFO - Started process (PID=61250) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:49,194] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:17:49,195] {logging_mixin.py:115} INFO - [2023-03-07 14:17:49,194] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:49,225] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:17:49,236] {logging_mixin.py:115} INFO - [2023-03-07 14:17:49,236] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:17:49,249] {logging_mixin.py:115} INFO - [2023-03-07 14:17:49,249] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:14:00+00:00, run_after=2023-03-07T17:16:00+00:00
+[2023-03-07 14:17:49,256] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2023-03-07 14:18:22,332] {processor.py:153} INFO - Started process (PID=61370) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:22,333] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:18:22,333] {logging_mixin.py:115} INFO - [2023-03-07 14:18:22,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:22,353] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:22,363] {logging_mixin.py:115} INFO - [2023-03-07 14:18:22,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:22,375] {logging_mixin.py:115} INFO - [2023-03-07 14:18:22,375] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:16:00+00:00, run_after=2023-03-07T17:18:00+00:00
+[2023-03-07 14:18:22,382] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.056 seconds
+[2023-03-07 14:18:54,936] {processor.py:153} INFO - Started process (PID=61488) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:54,937] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:18:54,938] {logging_mixin.py:115} INFO - [2023-03-07 14:18:54,938] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:54,965] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:18:54,976] {logging_mixin.py:115} INFO - [2023-03-07 14:18:54,976] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:18:54,990] {logging_mixin.py:115} INFO - [2023-03-07 14:18:54,990] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:16:00+00:00, run_after=2023-03-07T17:18:00+00:00
+[2023-03-07 14:18:54,999] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2023-03-07 14:19:29,097] {processor.py:153} INFO - Started process (PID=61574) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:19:29,099] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:19:29,100] {logging_mixin.py:115} INFO - [2023-03-07 14:19:29,100] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:19:29,126] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:19:29,137] {logging_mixin.py:115} INFO - [2023-03-07 14:19:29,137] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:19:29,150] {logging_mixin.py:115} INFO - [2023-03-07 14:19:29,150] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:16:00+00:00, run_after=2023-03-07T17:18:00+00:00
+[2023-03-07 14:19:29,158] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 14:20:01,651] {processor.py:153} INFO - Started process (PID=61643) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:01,651] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:20:01,652] {logging_mixin.py:115} INFO - [2023-03-07 14:20:01,652] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:01,669] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:01,680] {logging_mixin.py:115} INFO - [2023-03-07 14:20:01,680] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:20:01,694] {logging_mixin.py:115} INFO - [2023-03-07 14:20:01,693] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:18:00+00:00, run_after=2023-03-07T17:20:00+00:00
+[2023-03-07 14:20:01,702] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.053 seconds
+[2023-03-07 14:20:36,422] {processor.py:153} INFO - Started process (PID=61732) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:36,422] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:20:36,422] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,422] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:36,435] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:20:36,443] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,443] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:20:36,455] {logging_mixin.py:115} INFO - [2023-03-07 14:20:36,455] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:18:00+00:00, run_after=2023-03-07T17:20:00+00:00
+[2023-03-07 14:20:36,463] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.043 seconds
+[2023-03-07 14:21:09,584] {processor.py:153} INFO - Started process (PID=61810) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:21:09,586] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:21:09,587] {logging_mixin.py:115} INFO - [2023-03-07 14:21:09,587] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:21:09,619] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:21:09,630] {logging_mixin.py:115} INFO - [2023-03-07 14:21:09,630] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:21:09,643] {logging_mixin.py:115} INFO - [2023-03-07 14:21:09,643] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:18:00+00:00, run_after=2023-03-07T17:20:00+00:00
+[2023-03-07 14:21:09,650] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 14:23:37,300] {processor.py:153} INFO - Started process (PID=62144) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:23:37,302] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:23:37,303] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:23:37,341] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:23:37,353] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,353] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:23:37,366] {logging_mixin.py:115} INFO - [2023-03-07 14:23:37,366] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:20:00+00:00, run_after=2023-03-07T17:22:00+00:00
+[2023-03-07 14:23:37,374] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.080 seconds
+[2023-03-07 14:24:11,529] {processor.py:153} INFO - Started process (PID=62219) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:24:11,530] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:24:11,531] {logging_mixin.py:115} INFO - [2023-03-07 14:24:11,531] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:24:11,562] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:24:11,573] {logging_mixin.py:115} INFO - [2023-03-07 14:24:11,573] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:24:11,586] {logging_mixin.py:115} INFO - [2023-03-07 14:24:11,586] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:22:00+00:00, run_after=2023-03-07T17:24:00+00:00
+[2023-03-07 14:24:11,595] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 14:25:39,808] {processor.py:153} INFO - Started process (PID=62561) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:25:39,810] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:25:39,811] {logging_mixin.py:115} INFO - [2023-03-07 14:25:39,811] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:25:39,839] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:25:39,851] {logging_mixin.py:115} INFO - [2023-03-07 14:25:39,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:25:39,868] {logging_mixin.py:115} INFO - [2023-03-07 14:25:39,868] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:22:00+00:00, run_after=2023-03-07T17:24:00+00:00
+[2023-03-07 14:25:39,880] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds
+[2023-03-07 14:26:35,539] {processor.py:153} INFO - Started process (PID=62858) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:26:35,540] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:26:35,540] {logging_mixin.py:115} INFO - [2023-03-07 14:26:35,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:26:35,551] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:26:35,560] {logging_mixin.py:115} INFO - [2023-03-07 14:26:35,560] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:26:35,573] {logging_mixin.py:115} INFO - [2023-03-07 14:26:35,573] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:24:00+00:00, run_after=2023-03-07T17:26:00+00:00
+[2023-03-07 14:26:35,581] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.044 seconds
+[2023-03-07 14:27:10,551] {processor.py:153} INFO - Started process (PID=62982) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:10,553] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:27:10,553] {logging_mixin.py:115} INFO - [2023-03-07 14:27:10,553] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:10,572] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:10,583] {logging_mixin.py:115} INFO - [2023-03-07 14:27:10,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:27:10,598] {logging_mixin.py:115} INFO - [2023-03-07 14:27:10,598] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:24:00+00:00, run_after=2023-03-07T17:26:00+00:00
+[2023-03-07 14:27:10,605] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.057 seconds
+[2023-03-07 14:27:59,863] {processor.py:153} INFO - Started process (PID=63208) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:59,864] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:27:59,864] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,864] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:59,877] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:27:59,886] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,886] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:27:59,903] {logging_mixin.py:115} INFO - [2023-03-07 14:27:59,903] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:24:00+00:00, run_after=2023-03-07T17:26:00+00:00
+[2023-03-07 14:27:59,913] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2023-03-07 14:28:38,858] {processor.py:153} INFO - Started process (PID=63334) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:28:38,860] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:28:38,860] {logging_mixin.py:115} INFO - [2023-03-07 14:28:38,860] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:28:38,872] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:28:38,883] {logging_mixin.py:115} INFO - [2023-03-07 14:28:38,883] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:28:38,899] {logging_mixin.py:115} INFO - [2023-03-07 14:28:38,899] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:26:00+00:00, run_after=2023-03-07T17:28:00+00:00
+[2023-03-07 14:28:38,911] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.056 seconds
+[2023-03-07 14:37:39,087] {processor.py:153} INFO - Started process (PID=64354) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:37:39,089] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:37:39,090] {logging_mixin.py:115} INFO - [2023-03-07 14:37:39,090] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:37:39,124] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:37:39,136] {logging_mixin.py:115} INFO - [2023-03-07 14:37:39,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:37:39,153] {logging_mixin.py:115} INFO - [2023-03-07 14:37:39,153] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:34:00+00:00, run_after=2023-03-07T17:36:00+00:00
+[2023-03-07 14:37:39,161] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.080 seconds
+[2023-03-07 14:38:10,934] {processor.py:153} INFO - Started process (PID=64444) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:38:10,935] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:38:10,936] {logging_mixin.py:115} INFO - [2023-03-07 14:38:10,936] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:38:10,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:38:10,971] {logging_mixin.py:115} INFO - [2023-03-07 14:38:10,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:38:10,989] {logging_mixin.py:115} INFO - [2023-03-07 14:38:10,989] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:36:00+00:00, run_after=2023-03-07T17:38:00+00:00
+[2023-03-07 14:38:10,998] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2023-03-07 14:39:09,807] {processor.py:153} INFO - Started process (PID=64716) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:09,807] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:39:09,808] {logging_mixin.py:115} INFO - [2023-03-07 14:39:09,808] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:09,834] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:09,846] {logging_mixin.py:115} INFO - [2023-03-07 14:39:09,846] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:39:09,864] {logging_mixin.py:115} INFO - [2023-03-07 14:39:09,864] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:36:00+00:00, run_after=2023-03-07T17:38:00+00:00
+[2023-03-07 14:39:09,874] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 14:39:45,718] {processor.py:153} INFO - Started process (PID=64854) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:45,718] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:39:45,719] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,719] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:45,739] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:39:45,751] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,751] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:39:45,766] {logging_mixin.py:115} INFO - [2023-03-07 14:39:45,766] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:36:00+00:00, run_after=2023-03-07T17:38:00+00:00
+[2023-03-07 14:39:45,773] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.059 seconds
+[2023-03-07 14:40:21,876] {processor.py:153} INFO - Started process (PID=64942) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:21,876] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:40:21,877] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,877] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:21,887] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:21,895] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,895] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:21,910] {logging_mixin.py:115} INFO - [2023-03-07 14:40:21,909] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:38:00+00:00, run_after=2023-03-07T17:40:00+00:00
+[2023-03-07 14:40:21,917] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.043 seconds
+[2023-03-07 14:40:53,749] {processor.py:153} INFO - Started process (PID=65031) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:53,749] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:40:53,750] {logging_mixin.py:115} INFO - [2023-03-07 14:40:53,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:53,766] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:40:53,778] {logging_mixin.py:115} INFO - [2023-03-07 14:40:53,778] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:40:53,793] {logging_mixin.py:115} INFO - [2023-03-07 14:40:53,792] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:38:00+00:00, run_after=2023-03-07T17:40:00+00:00
+[2023-03-07 14:40:53,802] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.055 seconds
+[2023-03-07 14:41:27,699] {processor.py:153} INFO - Started process (PID=65135) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:41:27,699] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:41:27,699] {logging_mixin.py:115} INFO - [2023-03-07 14:41:27,699] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:41:27,710] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:41:27,717] {logging_mixin.py:115} INFO - [2023-03-07 14:41:27,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:41:27,731] {logging_mixin.py:115} INFO - [2023-03-07 14:41:27,731] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:38:00+00:00, run_after=2023-03-07T17:40:00+00:00
+[2023-03-07 14:41:27,739] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.042 seconds
+[2023-03-07 14:42:18,238] {processor.py:153} INFO - Started process (PID=65348) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:18,240] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:42:18,242] {logging_mixin.py:115} INFO - [2023-03-07 14:42:18,242] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:18,260] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:18,271] {logging_mixin.py:115} INFO - [2023-03-07 14:42:18,271] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:42:18,290] {logging_mixin.py:115} INFO - [2023-03-07 14:42:18,290] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:40:00+00:00, run_after=2023-03-07T17:42:00+00:00
+[2023-03-07 14:42:18,302] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.067 seconds
+[2023-03-07 14:42:51,337] {processor.py:153} INFO - Started process (PID=65441) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:51,338] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:42:51,339] {logging_mixin.py:115} INFO - [2023-03-07 14:42:51,339] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:51,363] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:42:51,374] {logging_mixin.py:115} INFO - [2023-03-07 14:42:51,374] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:42:51,388] {logging_mixin.py:115} INFO - [2023-03-07 14:42:51,388] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:40:00+00:00, run_after=2023-03-07T17:42:00+00:00
+[2023-03-07 14:42:51,395] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2023-03-07 14:43:41,803] {processor.py:153} INFO - Started process (PID=65796) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:43:41,804] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:43:41,804] {logging_mixin.py:115} INFO - [2023-03-07 14:43:41,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:43:41,815] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:43:41,823] {logging_mixin.py:115} INFO - [2023-03-07 14:43:41,823] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:43:41,836] {logging_mixin.py:115} INFO - [2023-03-07 14:43:41,836] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:40:00+00:00, run_after=2023-03-07T17:42:00+00:00
+[2023-03-07 14:43:41,844] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.042 seconds
+[2023-03-07 14:44:50,355] {processor.py:153} INFO - Started process (PID=66262) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:44:50,356] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:44:50,356] {logging_mixin.py:115} INFO - [2023-03-07 14:44:50,356] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:44:50,370] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:44:50,378] {logging_mixin.py:115} INFO - [2023-03-07 14:44:50,378] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:44:50,395] {logging_mixin.py:115} INFO - [2023-03-07 14:44:50,395] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:42:00+00:00, run_after=2023-03-07T17:44:00+00:00
+[2023-03-07 14:44:50,405] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2023-03-07 14:45:45,929] {processor.py:153} INFO - Started process (PID=66718) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:45:45,930] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:45:45,930] {logging_mixin.py:115} INFO - [2023-03-07 14:45:45,930] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:45:45,946] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:45:45,957] {logging_mixin.py:115} INFO - [2023-03-07 14:45:45,957] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:45:45,977] {logging_mixin.py:115} INFO - [2023-03-07 14:45:45,977] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:42:00+00:00, run_after=2023-03-07T17:44:00+00:00
+[2023-03-07 14:45:45,988] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2023-03-07 14:46:32,856] {processor.py:153} INFO - Started process (PID=67126) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:46:32,857] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:46:32,857] {logging_mixin.py:115} INFO - [2023-03-07 14:46:32,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:46:32,868] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:46:32,876] {logging_mixin.py:115} INFO - [2023-03-07 14:46:32,876] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:46:32,890] {logging_mixin.py:115} INFO - [2023-03-07 14:46:32,890] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:44:00+00:00, run_after=2023-03-07T17:46:00+00:00
+[2023-03-07 14:46:32,897] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.042 seconds
+[2023-03-07 14:47:27,946] {processor.py:153} INFO - Started process (PID=67600) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:47:27,947] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:47:27,947] {logging_mixin.py:115} INFO - [2023-03-07 14:47:27,947] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:47:27,962] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:47:27,973] {logging_mixin.py:115} INFO - [2023-03-07 14:47:27,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:47:27,988] {logging_mixin.py:115} INFO - [2023-03-07 14:47:27,987] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:44:00+00:00, run_after=2023-03-07T17:46:00+00:00
+[2023-03-07 14:47:27,996] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2023-03-07 14:48:11,083] {processor.py:153} INFO - Started process (PID=67957) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:11,084] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:48:11,084] {logging_mixin.py:115} INFO - [2023-03-07 14:48:11,084] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:11,096] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:11,105] {logging_mixin.py:115} INFO - [2023-03-07 14:48:11,105] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:48:11,122] {logging_mixin.py:115} INFO - [2023-03-07 14:48:11,122] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:46:00+00:00, run_after=2023-03-07T17:48:00+00:00
+[2023-03-07 14:48:11,132] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.052 seconds
+[2023-03-07 14:48:54,575] {processor.py:153} INFO - Started process (PID=68316) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:54,576] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:48:54,577] {logging_mixin.py:115} INFO - [2023-03-07 14:48:54,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:54,589] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:48:54,601] {logging_mixin.py:115} INFO - [2023-03-07 14:48:54,601] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:48:54,617] {logging_mixin.py:115} INFO - [2023-03-07 14:48:54,617] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:46:00+00:00, run_after=2023-03-07T17:48:00+00:00
+[2023-03-07 14:48:54,625] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.051 seconds
+[2023-03-07 14:49:41,379] {processor.py:153} INFO - Started process (PID=68645) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:49:41,380] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:49:41,381] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,381] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:49:41,399] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:49:41,410] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,410] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:49:41,429] {logging_mixin.py:115} INFO - [2023-03-07 14:49:41,428] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:46:00+00:00, run_after=2023-03-07T17:48:00+00:00
+[2023-03-07 14:49:41,437] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.062 seconds
+[2023-03-07 14:50:21,887] {processor.py:153} INFO - Started process (PID=68899) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:50:21,888] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:50:21,888] {logging_mixin.py:115} INFO - [2023-03-07 14:50:21,888] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:50:21,899] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:50:21,906] {logging_mixin.py:115} INFO - [2023-03-07 14:50:21,906] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:50:21,921] {logging_mixin.py:115} INFO - [2023-03-07 14:50:21,921] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:48:00+00:00, run_after=2023-03-07T17:50:00+00:00
+[2023-03-07 14:50:21,930] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.044 seconds
+[2023-03-07 14:51:15,426] {processor.py:153} INFO - Started process (PID=69345) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:15,428] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:51:15,429] {logging_mixin.py:115} INFO - [2023-03-07 14:51:15,428] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:15,454] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:15,466] {logging_mixin.py:115} INFO - [2023-03-07 14:51:15,466] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:15,480] {logging_mixin.py:115} INFO - [2023-03-07 14:51:15,480] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:48:00+00:00, run_after=2023-03-07T17:50:00+00:00
+[2023-03-07 14:51:15,487] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2023-03-07 14:51:48,844] {processor.py:153} INFO - Started process (PID=69427) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:48,846] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:51:48,848] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,847] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:48,859] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:51:48,870] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:51:48,887] {logging_mixin.py:115} INFO - [2023-03-07 14:51:48,887] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:48:00+00:00, run_after=2023-03-07T17:50:00+00:00
+[2023-03-07 14:51:48,898] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.056 seconds
+[2023-03-07 14:52:21,953] {processor.py:153} INFO - Started process (PID=69514) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:21,954] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:52:21,954] {logging_mixin.py:115} INFO - [2023-03-07 14:52:21,954] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:21,967] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:21,977] {logging_mixin.py:115} INFO - [2023-03-07 14:52:21,977] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:21,992] {logging_mixin.py:115} INFO - [2023-03-07 14:52:21,992] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:50:00+00:00, run_after=2023-03-07T17:52:00+00:00
+[2023-03-07 14:52:21,999] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.048 seconds
+[2023-03-07 14:52:54,912] {processor.py:153} INFO - Started process (PID=69601) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:54,912] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:52:54,913] {logging_mixin.py:115} INFO - [2023-03-07 14:52:54,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:54,942] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:52:54,954] {logging_mixin.py:115} INFO - [2023-03-07 14:52:54,954] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:52:54,968] {logging_mixin.py:115} INFO - [2023-03-07 14:52:54,968] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:50:00+00:00, run_after=2023-03-07T17:52:00+00:00
+[2023-03-07 14:52:54,975] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 14:53:29,829] {processor.py:153} INFO - Started process (PID=69692) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:53:29,830] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:53:29,831] {logging_mixin.py:115} INFO - [2023-03-07 14:53:29,831] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:53:29,849] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:53:29,858] {logging_mixin.py:115} INFO - [2023-03-07 14:53:29,858] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:53:29,876] {logging_mixin.py:115} INFO - [2023-03-07 14:53:29,876] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:50:00+00:00, run_after=2023-03-07T17:52:00+00:00
+[2023-03-07 14:53:29,887] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.061 seconds
+[2023-03-07 14:54:07,531] {processor.py:153} INFO - Started process (PID=69797) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:07,531] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:54:07,531] {logging_mixin.py:115} INFO - [2023-03-07 14:54:07,531] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:07,542] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:07,549] {logging_mixin.py:115} INFO - [2023-03-07 14:54:07,549] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:54:07,563] {logging_mixin.py:115} INFO - [2023-03-07 14:54:07,563] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:52:00+00:00, run_after=2023-03-07T17:54:00+00:00
+[2023-03-07 14:54:07,570] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.041 seconds
+[2023-03-07 14:54:41,619] {processor.py:153} INFO - Started process (PID=69869) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:41,621] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:54:41,621] {logging_mixin.py:115} INFO - [2023-03-07 14:54:41,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:41,642] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:54:41,653] {logging_mixin.py:115} INFO - [2023-03-07 14:54:41,653] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:54:41,671] {logging_mixin.py:115} INFO - [2023-03-07 14:54:41,670] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:52:00+00:00, run_after=2023-03-07T17:54:00+00:00
+[2023-03-07 14:54:41,679] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2023-03-07 14:55:15,331] {processor.py:153} INFO - Started process (PID=69978) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:15,332] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:55:15,333] {logging_mixin.py:115} INFO - [2023-03-07 14:55:15,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:15,363] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:15,374] {logging_mixin.py:115} INFO - [2023-03-07 14:55:15,374] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:15,389] {logging_mixin.py:115} INFO - [2023-03-07 14:55:15,388] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:52:00+00:00, run_after=2023-03-07T17:54:00+00:00
+[2023-03-07 14:55:15,396] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2023-03-07 14:55:49,855] {processor.py:153} INFO - Started process (PID=70047) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:49,856] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:55:49,857] {logging_mixin.py:115} INFO - [2023-03-07 14:55:49,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:49,891] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:55:49,902] {logging_mixin.py:115} INFO - [2023-03-07 14:55:49,902] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:55:49,916] {logging_mixin.py:115} INFO - [2023-03-07 14:55:49,916] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:52:00+00:00, run_after=2023-03-07T17:54:00+00:00
+[2023-03-07 14:55:49,923] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.075 seconds
+[2023-03-07 14:56:22,106] {processor.py:153} INFO - Started process (PID=70134) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:56:22,107] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:56:22,108] {logging_mixin.py:115} INFO - [2023-03-07 14:56:22,108] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:56:22,132] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:56:22,143] {logging_mixin.py:115} INFO - [2023-03-07 14:56:22,143] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:56:22,157] {logging_mixin.py:115} INFO - [2023-03-07 14:56:22,157] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:54:00+00:00, run_after=2023-03-07T17:56:00+00:00
+[2023-03-07 14:56:22,164] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.063 seconds
+[2023-03-07 14:57:07,160] {processor.py:153} INFO - Started process (PID=70299) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:07,161] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:57:07,161] {logging_mixin.py:115} INFO - [2023-03-07 14:57:07,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:07,173] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:07,183] {logging_mixin.py:115} INFO - [2023-03-07 14:57:07,183] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:57:07,194] {logging_mixin.py:115} INFO - [2023-03-07 14:57:07,194] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:54:00+00:00, run_after=2023-03-07T17:56:00+00:00
+[2023-03-07 14:57:07,201] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.043 seconds
+[2023-03-07 14:57:40,441] {processor.py:153} INFO - Started process (PID=70381) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:40,442] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:57:40,443] {logging_mixin.py:115} INFO - [2023-03-07 14:57:40,443] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:40,466] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:57:40,478] {logging_mixin.py:115} INFO - [2023-03-07 14:57:40,478] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:57:40,493] {logging_mixin.py:115} INFO - [2023-03-07 14:57:40,493] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:54:00+00:00, run_after=2023-03-07T17:56:00+00:00
+[2023-03-07 14:57:40,501] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2023-03-07 14:58:13,053] {processor.py:153} INFO - Started process (PID=70493) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:13,054] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:58:13,055] {logging_mixin.py:115} INFO - [2023-03-07 14:58:13,055] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:13,069] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:13,081] {logging_mixin.py:115} INFO - [2023-03-07 14:58:13,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:58:13,094] {logging_mixin.py:115} INFO - [2023-03-07 14:58:13,094] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:56:00+00:00, run_after=2023-03-07T17:58:00+00:00
+[2023-03-07 14:58:13,104] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.054 seconds
+[2023-03-07 14:58:47,010] {processor.py:153} INFO - Started process (PID=70570) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:47,012] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:58:47,013] {logging_mixin.py:115} INFO - [2023-03-07 14:58:47,013] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:47,043] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:58:47,056] {logging_mixin.py:115} INFO - [2023-03-07 14:58:47,056] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:58:47,068] {logging_mixin.py:115} INFO - [2023-03-07 14:58:47,068] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:56:00+00:00, run_after=2023-03-07T17:58:00+00:00
+[2023-03-07 14:58:47,076] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2023-03-07 14:59:22,882] {processor.py:153} INFO - Started process (PID=70648) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:22,883] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:59:22,884] {logging_mixin.py:115} INFO - [2023-03-07 14:59:22,884] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:22,914] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:22,926] {logging_mixin.py:115} INFO - [2023-03-07 14:59:22,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:22,938] {logging_mixin.py:115} INFO - [2023-03-07 14:59:22,938] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:56:00+00:00, run_after=2023-03-07T17:58:00+00:00
+[2023-03-07 14:59:22,945] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.070 seconds
+[2023-03-07 14:59:56,574] {processor.py:153} INFO - Started process (PID=70759) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:56,575] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 14:59:56,577] {logging_mixin.py:115} INFO - [2023-03-07 14:59:56,576] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:56,608] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 14:59:56,621] {logging_mixin.py:115} INFO - [2023-03-07 14:59:56,621] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 14:59:56,634] {logging_mixin.py:115} INFO - [2023-03-07 14:59:56,634] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:56:00+00:00, run_after=2023-03-07T17:58:00+00:00
+[2023-03-07 14:59:56,641] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds
+[2023-03-07 15:00:31,797] {processor.py:153} INFO - Started process (PID=70856) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:00:31,797] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:00:31,798] {logging_mixin.py:115} INFO - [2023-03-07 15:00:31,797] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:00:31,814] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:00:31,825] {logging_mixin.py:115} INFO - [2023-03-07 15:00:31,825] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:00:31,839] {logging_mixin.py:115} INFO - [2023-03-07 15:00:31,839] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:58:00+00:00, run_after=2023-03-07T18:00:00+00:00
+[2023-03-07 15:00:31,850] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.055 seconds
+[2023-03-07 15:01:04,046] {processor.py:153} INFO - Started process (PID=70937) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:04,048] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:01:04,049] {logging_mixin.py:115} INFO - [2023-03-07 15:01:04,049] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:04,075] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:04,087] {logging_mixin.py:115} INFO - [2023-03-07 15:01:04,087] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:01:04,099] {logging_mixin.py:115} INFO - [2023-03-07 15:01:04,099] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:58:00+00:00, run_after=2023-03-07T18:00:00+00:00
+[2023-03-07 15:01:04,107] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 15:01:36,188] {processor.py:153} INFO - Started process (PID=71016) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:36,189] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:01:36,190] {logging_mixin.py:115} INFO - [2023-03-07 15:01:36,190] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:36,218] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:01:36,230] {logging_mixin.py:115} INFO - [2023-03-07 15:01:36,230] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:01:36,243] {logging_mixin.py:115} INFO - [2023-03-07 15:01:36,243] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T17:58:00+00:00, run_after=2023-03-07T18:00:00+00:00
+[2023-03-07 15:01:36,254] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.074 seconds
+[2023-03-07 15:02:09,643] {processor.py:153} INFO - Started process (PID=71090) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:09,644] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:02:09,645] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,645] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:09,674] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:09,686] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,686] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:09,698] {logging_mixin.py:115} INFO - [2023-03-07 15:02:09,698] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:00:00+00:00, run_after=2023-03-07T18:02:00+00:00
+[2023-03-07 15:02:09,705] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 15:02:42,861] {processor.py:153} INFO - Started process (PID=71192) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:42,861] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:02:42,862] {logging_mixin.py:115} INFO - [2023-03-07 15:02:42,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:42,875] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:02:42,887] {logging_mixin.py:115} INFO - [2023-03-07 15:02:42,887] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:02:42,899] {logging_mixin.py:115} INFO - [2023-03-07 15:02:42,899] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:00:00+00:00, run_after=2023-03-07T18:02:00+00:00
+[2023-03-07 15:02:42,908] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.049 seconds
+[2023-03-07 15:03:18,989] {processor.py:153} INFO - Started process (PID=71293) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:18,990] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:03:18,991] {logging_mixin.py:115} INFO - [2023-03-07 15:03:18,991] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:19,022] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:19,033] {logging_mixin.py:115} INFO - [2023-03-07 15:03:19,033] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:19,044] {logging_mixin.py:115} INFO - [2023-03-07 15:03:19,044] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:00:00+00:00, run_after=2023-03-07T18:02:00+00:00
+[2023-03-07 15:03:19,051] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2023-03-07 15:03:54,302] {processor.py:153} INFO - Started process (PID=71364) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:54,303] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:03:54,304] {logging_mixin.py:115} INFO - [2023-03-07 15:03:54,304] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:54,340] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:03:54,352] {logging_mixin.py:115} INFO - [2023-03-07 15:03:54,352] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:03:54,364] {logging_mixin.py:115} INFO - [2023-03-07 15:03:54,364] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:00:00+00:00, run_after=2023-03-07T18:02:00+00:00
+[2023-03-07 15:03:54,371] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.076 seconds
+[2023-03-07 15:04:28,862] {processor.py:153} INFO - Started process (PID=71468) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:04:28,863] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:04:28,864] {logging_mixin.py:115} INFO - [2023-03-07 15:04:28,864] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:04:28,896] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:04:28,908] {logging_mixin.py:115} INFO - [2023-03-07 15:04:28,908] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:04:28,921] {logging_mixin.py:115} INFO - [2023-03-07 15:04:28,921] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:02:00+00:00, run_after=2023-03-07T18:04:00+00:00
+[2023-03-07 15:04:28,927] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 15:05:04,471] {processor.py:153} INFO - Started process (PID=71552) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:04,472] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:05:04,472] {logging_mixin.py:115} INFO - [2023-03-07 15:05:04,472] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:04,488] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:04,502] {logging_mixin.py:115} INFO - [2023-03-07 15:05:04,502] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:05:04,517] {logging_mixin.py:115} INFO - [2023-03-07 15:05:04,517] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:02:00+00:00, run_after=2023-03-07T18:04:00+00:00
+[2023-03-07 15:05:04,526] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.056 seconds
+[2023-03-07 15:05:38,970] {processor.py:153} INFO - Started process (PID=71626) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:38,972] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:05:38,973] {logging_mixin.py:115} INFO - [2023-03-07 15:05:38,973] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:39,004] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:05:39,016] {logging_mixin.py:115} INFO - [2023-03-07 15:05:39,016] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:05:39,028] {logging_mixin.py:115} INFO - [2023-03-07 15:05:39,028] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:02:00+00:00, run_after=2023-03-07T18:04:00+00:00
+[2023-03-07 15:05:39,035] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2023-03-07 15:06:16,038] {processor.py:153} INFO - Started process (PID=71716) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:16,039] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:06:16,039] {logging_mixin.py:115} INFO - [2023-03-07 15:06:16,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:16,056] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:16,069] {logging_mixin.py:115} INFO - [2023-03-07 15:06:16,069] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:16,082] {logging_mixin.py:115} INFO - [2023-03-07 15:06:16,082] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:04:00+00:00, run_after=2023-03-07T18:06:00+00:00
+[2023-03-07 15:06:16,089] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.053 seconds
+[2023-03-07 15:06:50,593] {processor.py:153} INFO - Started process (PID=71789) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:50,595] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:06:50,596] {logging_mixin.py:115} INFO - [2023-03-07 15:06:50,596] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:50,624] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:06:50,638] {logging_mixin.py:115} INFO - [2023-03-07 15:06:50,638] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:06:50,654] {logging_mixin.py:115} INFO - [2023-03-07 15:06:50,653] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:04:00+00:00, run_after=2023-03-07T18:06:00+00:00
+[2023-03-07 15:06:50,662] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.075 seconds
+[2023-03-07 15:07:22,227] {processor.py:153} INFO - Started process (PID=71897) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:22,229] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:07:22,230] {logging_mixin.py:115} INFO - [2023-03-07 15:07:22,230] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:22,260] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:22,273] {logging_mixin.py:115} INFO - [2023-03-07 15:07:22,273] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:07:22,285] {logging_mixin.py:115} INFO - [2023-03-07 15:07:22,285] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:04:00+00:00, run_after=2023-03-07T18:06:00+00:00
+[2023-03-07 15:07:22,293] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2023-03-07 15:07:53,705] {processor.py:153} INFO - Started process (PID=71973) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:53,706] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:07:53,706] {logging_mixin.py:115} INFO - [2023-03-07 15:07:53,706] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:53,717] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:07:53,730] {logging_mixin.py:115} INFO - [2023-03-07 15:07:53,730] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:07:53,742] {logging_mixin.py:115} INFO - [2023-03-07 15:07:53,742] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:04:00+00:00, run_after=2023-03-07T18:06:00+00:00
+[2023-03-07 15:07:53,751] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.047 seconds
+[2023-03-07 15:08:27,276] {processor.py:153} INFO - Started process (PID=72078) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:08:27,276] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:08:27,277] {logging_mixin.py:115} INFO - [2023-03-07 15:08:27,277] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:08:27,294] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:08:27,308] {logging_mixin.py:115} INFO - [2023-03-07 15:08:27,308] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:08:27,321] {logging_mixin.py:115} INFO - [2023-03-07 15:08:27,321] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:06:00+00:00, run_after=2023-03-07T18:08:00+00:00
+[2023-03-07 15:08:27,328] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.055 seconds
+[2023-03-07 15:09:04,009] {processor.py:153} INFO - Started process (PID=72182) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:04,010] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:09:04,011] {logging_mixin.py:115} INFO - [2023-03-07 15:09:04,011] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:04,042] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:04,055] {logging_mixin.py:115} INFO - [2023-03-07 15:09:04,055] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:04,067] {logging_mixin.py:115} INFO - [2023-03-07 15:09:04,067] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:06:00+00:00, run_after=2023-03-07T18:08:00+00:00
+[2023-03-07 15:09:04,074] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2023-03-07 15:09:36,993] {processor.py:153} INFO - Started process (PID=72285) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:36,993] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-03-07 15:09:36,993] {logging_mixin.py:115} INFO - [2023-03-07 15:09:36,993] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:37,003] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-03-07 15:09:37,012] {logging_mixin.py:115} INFO - [2023-03-07 15:09:37,012] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 15:09:37,022] {logging_mixin.py:115} INFO - [2023-03-07 15:09:37,022] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-03-07T18:06:00+00:00, run_after=2023-03-07T18:08:00+00:00
+[2023-03-07 15:09:37,029] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.038 seconds
