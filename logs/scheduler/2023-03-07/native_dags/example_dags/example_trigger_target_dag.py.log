@@ -1,0 +1,319 @@
+[2023-03-07 08:40:42,030] {processor.py:153} INFO - Started process (PID=7994) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:40:42,031] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:40:42,032] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,032] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:40:42,062] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:40:42,101] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,101] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2023-03-07 08:40:42,107] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,107] {manager.py:508} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2023-03-07 08:40:42,112] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,112] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2023-03-07 08:40:42,112] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,112] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:40:42,116] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,116] {dag.py:2398} INFO - Creating ORM DAG for example_trigger_target_dag
+[2023-03-07 08:40:42,122] {logging_mixin.py:115} INFO - [2023-03-07 08:40:42,122] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:40:42,131] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.108 seconds
+[2023-03-07 08:41:15,536] {processor.py:153} INFO - Started process (PID=8221) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:15,537] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:41:15,537] {logging_mixin.py:115} INFO - [2023-03-07 08:41:15,537] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:15,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:15,555] {logging_mixin.py:115} INFO - [2023-03-07 08:41:15,555] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:15,564] {logging_mixin.py:115} INFO - [2023-03-07 08:41:15,564] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:41:15,572] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.037 seconds
+[2023-03-07 08:41:49,131] {processor.py:153} INFO - Started process (PID=8282) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:49,132] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:41:49,133] {logging_mixin.py:115} INFO - [2023-03-07 08:41:49,133] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:49,165] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:41:49,176] {logging_mixin.py:115} INFO - [2023-03-07 08:41:49,176] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:49,186] {logging_mixin.py:115} INFO - [2023-03-07 08:41:49,186] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:41:49,194] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.069 seconds
+[2023-03-07 08:42:21,820] {processor.py:153} INFO - Started process (PID=8350) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:21,821] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:42:21,821] {logging_mixin.py:115} INFO - [2023-03-07 08:42:21,821] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:21,839] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:21,851] {logging_mixin.py:115} INFO - [2023-03-07 08:42:21,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:21,863] {logging_mixin.py:115} INFO - [2023-03-07 08:42:21,863] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:42:21,870] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.052 seconds
+[2023-03-07 08:42:53,629] {processor.py:153} INFO - Started process (PID=8419) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:53,630] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:42:53,632] {logging_mixin.py:115} INFO - [2023-03-07 08:42:53,631] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:53,663] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:42:53,674] {logging_mixin.py:115} INFO - [2023-03-07 08:42:53,674] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:53,685] {logging_mixin.py:115} INFO - [2023-03-07 08:42:53,685] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:42:53,695] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.073 seconds
+[2023-03-07 08:43:26,856] {processor.py:153} INFO - Started process (PID=8497) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:26,857] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:43:26,859] {logging_mixin.py:115} INFO - [2023-03-07 08:43:26,858] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:26,888] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:26,900] {logging_mixin.py:115} INFO - [2023-03-07 08:43:26,900] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:43:26,912] {logging_mixin.py:115} INFO - [2023-03-07 08:43:26,912] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:43:26,920] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds
+[2023-03-07 08:43:57,751] {processor.py:153} INFO - Started process (PID=8560) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:57,752] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:43:57,753] {logging_mixin.py:115} INFO - [2023-03-07 08:43:57,753] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:57,776] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:43:57,788] {logging_mixin.py:115} INFO - [2023-03-07 08:43:57,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:43:57,800] {logging_mixin.py:115} INFO - [2023-03-07 08:43:57,800] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:43:57,807] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.059 seconds
+[2023-03-07 08:44:30,417] {processor.py:153} INFO - Started process (PID=8632) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:44:30,418] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:44:30,420] {logging_mixin.py:115} INFO - [2023-03-07 08:44:30,420] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:44:30,442] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:44:30,451] {logging_mixin.py:115} INFO - [2023-03-07 08:44:30,451] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:44:30,462] {logging_mixin.py:115} INFO - [2023-03-07 08:44:30,462] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:44:30,469] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.059 seconds
+[2023-03-07 08:45:02,059] {processor.py:153} INFO - Started process (PID=8699) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:02,060] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:45:02,060] {logging_mixin.py:115} INFO - [2023-03-07 08:45:02,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:02,074] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:02,082] {logging_mixin.py:115} INFO - [2023-03-07 08:45:02,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:45:02,092] {logging_mixin.py:115} INFO - [2023-03-07 08:45:02,092] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:45:02,099] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.041 seconds
+[2023-03-07 08:45:34,017] {processor.py:153} INFO - Started process (PID=8769) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:34,018] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:45:34,020] {logging_mixin.py:115} INFO - [2023-03-07 08:45:34,019] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:34,043] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:45:34,052] {logging_mixin.py:115} INFO - [2023-03-07 08:45:34,052] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:45:34,062] {logging_mixin.py:115} INFO - [2023-03-07 08:45:34,062] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:45:34,073] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.063 seconds
+[2023-03-07 08:46:07,593] {processor.py:153} INFO - Started process (PID=8839) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:07,594] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:46:07,595] {logging_mixin.py:115} INFO - [2023-03-07 08:46:07,595] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:07,624] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:07,635] {logging_mixin.py:115} INFO - [2023-03-07 08:46:07,635] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:07,646] {logging_mixin.py:115} INFO - [2023-03-07 08:46:07,646] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:46:07,655] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.069 seconds
+[2023-03-07 08:46:39,801] {processor.py:153} INFO - Started process (PID=8925) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:39,801] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:46:39,802] {logging_mixin.py:115} INFO - [2023-03-07 08:46:39,802] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:39,818] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:46:39,827] {logging_mixin.py:115} INFO - [2023-03-07 08:46:39,827] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:39,839] {logging_mixin.py:115} INFO - [2023-03-07 08:46:39,839] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:46:39,847] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.049 seconds
+[2023-03-07 08:47:12,395] {processor.py:153} INFO - Started process (PID=9012) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:12,397] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:47:12,398] {logging_mixin.py:115} INFO - [2023-03-07 08:47:12,398] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:12,418] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:12,428] {logging_mixin.py:115} INFO - [2023-03-07 08:47:12,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:12,438] {logging_mixin.py:115} INFO - [2023-03-07 08:47:12,438] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:47:12,446] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.058 seconds
+[2023-03-07 08:47:44,302] {processor.py:153} INFO - Started process (PID=9108) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:44,302] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:47:44,303] {logging_mixin.py:115} INFO - [2023-03-07 08:47:44,302] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:44,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:47:44,322] {logging_mixin.py:115} INFO - [2023-03-07 08:47:44,322] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:44,334] {logging_mixin.py:115} INFO - [2023-03-07 08:47:44,334] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:47:44,346] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.045 seconds
+[2023-03-07 08:48:16,879] {processor.py:153} INFO - Started process (PID=9190) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:16,880] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:48:16,881] {logging_mixin.py:115} INFO - [2023-03-07 08:48:16,881] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:16,906] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:16,917] {logging_mixin.py:115} INFO - [2023-03-07 08:48:16,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:16,927] {logging_mixin.py:115} INFO - [2023-03-07 08:48:16,927] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:48:16,934] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.058 seconds
+[2023-03-07 08:48:48,829] {processor.py:153} INFO - Started process (PID=9258) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:48,830] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:48:48,830] {logging_mixin.py:115} INFO - [2023-03-07 08:48:48,830] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:48,840] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:48:48,851] {logging_mixin.py:115} INFO - [2023-03-07 08:48:48,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:48,867] {logging_mixin.py:115} INFO - [2023-03-07 08:48:48,867] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:48:48,877] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.049 seconds
+[2023-03-07 08:49:20,818] {processor.py:153} INFO - Started process (PID=9348) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:20,818] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:49:20,819] {logging_mixin.py:115} INFO - [2023-03-07 08:49:20,819] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:20,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:20,852] {logging_mixin.py:115} INFO - [2023-03-07 08:49:20,852] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:49:20,877] {logging_mixin.py:115} INFO - [2023-03-07 08:49:20,877] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:49:20,901] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.087 seconds
+[2023-03-07 08:49:52,219] {processor.py:153} INFO - Started process (PID=9439) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:52,221] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:49:52,222] {logging_mixin.py:115} INFO - [2023-03-07 08:49:52,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:52,244] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:49:52,255] {logging_mixin.py:115} INFO - [2023-03-07 08:49:52,254] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:49:52,265] {logging_mixin.py:115} INFO - [2023-03-07 08:49:52,265] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:49:52,273] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.062 seconds
+[2023-03-07 08:50:23,632] {processor.py:153} INFO - Started process (PID=9524) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:23,633] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:50:23,634] {logging_mixin.py:115} INFO - [2023-03-07 08:50:23,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:23,653] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:23,668] {logging_mixin.py:115} INFO - [2023-03-07 08:50:23,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:23,687] {logging_mixin.py:115} INFO - [2023-03-07 08:50:23,687] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:50:23,702] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.072 seconds
+[2023-03-07 08:50:57,311] {processor.py:153} INFO - Started process (PID=9604) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:57,312] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:50:57,314] {logging_mixin.py:115} INFO - [2023-03-07 08:50:57,313] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:57,340] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:50:57,351] {logging_mixin.py:115} INFO - [2023-03-07 08:50:57,350] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:57,361] {logging_mixin.py:115} INFO - [2023-03-07 08:50:57,361] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:50:57,369] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.064 seconds
+[2023-03-07 08:51:29,221] {processor.py:153} INFO - Started process (PID=9711) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:51:29,222] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:51:29,222] {logging_mixin.py:115} INFO - [2023-03-07 08:51:29,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:51:29,233] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:51:29,241] {logging_mixin.py:115} INFO - [2023-03-07 08:51:29,241] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:51:29,251] {logging_mixin.py:115} INFO - [2023-03-07 08:51:29,251] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:51:29,260] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.040 seconds
+[2023-03-07 08:52:02,343] {processor.py:153} INFO - Started process (PID=9800) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:02,343] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:52:02,344] {logging_mixin.py:115} INFO - [2023-03-07 08:52:02,344] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:02,367] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:02,381] {logging_mixin.py:115} INFO - [2023-03-07 08:52:02,381] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:52:02,392] {logging_mixin.py:115} INFO - [2023-03-07 08:52:02,392] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:52:02,400] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.061 seconds
+[2023-03-07 08:52:34,185] {processor.py:153} INFO - Started process (PID=9880) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:34,186] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:52:34,186] {logging_mixin.py:115} INFO - [2023-03-07 08:52:34,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:34,196] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:52:34,204] {logging_mixin.py:115} INFO - [2023-03-07 08:52:34,204] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:52:34,215] {logging_mixin.py:115} INFO - [2023-03-07 08:52:34,215] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:52:34,222] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.038 seconds
+[2023-03-07 08:53:05,256] {processor.py:153} INFO - Started process (PID=9974) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:05,256] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:53:05,257] {logging_mixin.py:115} INFO - [2023-03-07 08:53:05,257] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:05,276] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:05,286] {logging_mixin.py:115} INFO - [2023-03-07 08:53:05,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:05,300] {logging_mixin.py:115} INFO - [2023-03-07 08:53:05,300] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:53:05,348] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2023-03-07 08:53:40,458] {processor.py:153} INFO - Started process (PID=10054) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:40,459] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:53:40,461] {logging_mixin.py:115} INFO - [2023-03-07 08:53:40,460] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:40,485] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:53:40,496] {logging_mixin.py:115} INFO - [2023-03-07 08:53:40,496] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:40,508] {logging_mixin.py:115} INFO - [2023-03-07 08:53:40,508] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:53:40,517] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2023-03-07 08:54:29,099] {processor.py:153} INFO - Started process (PID=10309) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:29,099] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:54:29,100] {logging_mixin.py:115} INFO - [2023-03-07 08:54:29,100] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:29,113] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:29,123] {logging_mixin.py:115} INFO - [2023-03-07 08:54:29,123] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:29,138] {logging_mixin.py:115} INFO - [2023-03-07 08:54:29,138] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:54:29,152] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.055 seconds
+[2023-03-07 08:54:59,841] {processor.py:153} INFO - Started process (PID=10875) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:59,842] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:54:59,844] {logging_mixin.py:115} INFO - [2023-03-07 08:54:59,843] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:59,870] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:54:59,884] {logging_mixin.py:115} INFO - [2023-03-07 08:54:59,884] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:59,901] {logging_mixin.py:115} INFO - [2023-03-07 08:54:59,900] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:54:59,913] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2023-03-07 08:55:33,792] {processor.py:153} INFO - Started process (PID=10946) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:55:33,793] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:55:33,795] {logging_mixin.py:115} INFO - [2023-03-07 08:55:33,794] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:55:33,821] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:55:33,832] {logging_mixin.py:115} INFO - [2023-03-07 08:55:33,832] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:55:33,843] {logging_mixin.py:115} INFO - [2023-03-07 08:55:33,843] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:55:33,850] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2023-03-07 08:56:07,600] {processor.py:153} INFO - Started process (PID=11014) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:56:07,601] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 08:56:07,602] {logging_mixin.py:115} INFO - [2023-03-07 08:56:07,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:56:07,628] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 08:56:07,640] {logging_mixin.py:115} INFO - [2023-03-07 08:56:07,640] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:56:07,651] {logging_mixin.py:115} INFO - [2023-03-07 08:56:07,651] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 08:56:07,658] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.063 seconds
+[2023-03-07 09:01:48,631] {processor.py:153} INFO - Started process (PID=11570) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:01:48,632] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:01:48,633] {logging_mixin.py:115} INFO - [2023-03-07 09:01:48,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:01:48,661] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:01:48,673] {logging_mixin.py:115} INFO - [2023-03-07 09:01:48,673] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:01:48,684] {logging_mixin.py:115} INFO - [2023-03-07 09:01:48,684] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:01:48,692] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.068 seconds
+[2023-03-07 09:02:20,603] {processor.py:153} INFO - Started process (PID=11940) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:20,604] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:02:20,604] {logging_mixin.py:115} INFO - [2023-03-07 09:02:20,604] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:20,616] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:20,626] {logging_mixin.py:115} INFO - [2023-03-07 09:02:20,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:20,640] {logging_mixin.py:115} INFO - [2023-03-07 09:02:20,639] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:02:20,654] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.052 seconds
+[2023-03-07 09:02:53,437] {processor.py:153} INFO - Started process (PID=12014) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:53,439] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:02:53,440] {logging_mixin.py:115} INFO - [2023-03-07 09:02:53,440] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:53,460] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:02:53,471] {logging_mixin.py:115} INFO - [2023-03-07 09:02:53,471] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:53,482] {logging_mixin.py:115} INFO - [2023-03-07 09:02:53,482] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:02:53,490] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.058 seconds
+[2023-03-07 09:03:25,084] {processor.py:153} INFO - Started process (PID=12179) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:25,084] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:03:25,084] {logging_mixin.py:115} INFO - [2023-03-07 09:03:25,084] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:25,093] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:25,101] {logging_mixin.py:115} INFO - [2023-03-07 09:03:25,101] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:03:25,110] {logging_mixin.py:115} INFO - [2023-03-07 09:03:25,110] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:03:25,118] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.036 seconds
+[2023-03-07 09:03:58,204] {processor.py:153} INFO - Started process (PID=12263) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:58,206] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:03:58,207] {logging_mixin.py:115} INFO - [2023-03-07 09:03:58,207] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:58,236] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:03:58,247] {logging_mixin.py:115} INFO - [2023-03-07 09:03:58,247] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:03:58,258] {logging_mixin.py:115} INFO - [2023-03-07 09:03:58,258] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:03:58,266] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.069 seconds
+[2023-03-07 09:04:31,811] {processor.py:153} INFO - Started process (PID=12342) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:04:31,812] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:04:31,812] {logging_mixin.py:115} INFO - [2023-03-07 09:04:31,812] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:04:31,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:04:31,848] {logging_mixin.py:115} INFO - [2023-03-07 09:04:31,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:04:31,860] {logging_mixin.py:115} INFO - [2023-03-07 09:04:31,860] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:04:31,867] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.060 seconds
+[2023-03-07 09:05:04,721] {processor.py:153} INFO - Started process (PID=12428) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:04,722] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:05:04,723] {logging_mixin.py:115} INFO - [2023-03-07 09:05:04,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:04,747] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:04,759] {logging_mixin.py:115} INFO - [2023-03-07 09:05:04,758] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:04,770] {logging_mixin.py:115} INFO - [2023-03-07 09:05:04,769] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:05:04,777] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.060 seconds
+[2023-03-07 09:05:35,549] {processor.py:153} INFO - Started process (PID=12492) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:35,551] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:05:35,552] {logging_mixin.py:115} INFO - [2023-03-07 09:05:35,551] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:35,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:05:35,584] {logging_mixin.py:115} INFO - [2023-03-07 09:05:35,584] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:35,604] {logging_mixin.py:115} INFO - [2023-03-07 09:05:35,604] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:05:35,614] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.069 seconds
+[2023-03-07 09:06:09,284] {processor.py:153} INFO - Started process (PID=12569) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:09,286] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:06:09,287] {logging_mixin.py:115} INFO - [2023-03-07 09:06:09,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:09,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:09,325] {logging_mixin.py:115} INFO - [2023-03-07 09:06:09,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:09,336] {logging_mixin.py:115} INFO - [2023-03-07 09:06:09,336] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:06:09,344] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.066 seconds
+[2023-03-07 09:06:41,203] {processor.py:153} INFO - Started process (PID=12628) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:41,204] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:06:41,205] {logging_mixin.py:115} INFO - [2023-03-07 09:06:41,205] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:41,229] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:06:41,239] {logging_mixin.py:115} INFO - [2023-03-07 09:06:41,239] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:41,250] {logging_mixin.py:115} INFO - [2023-03-07 09:06:41,250] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:06:41,258] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.062 seconds
+[2023-03-07 09:07:14,285] {processor.py:153} INFO - Started process (PID=12708) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:14,286] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:07:14,287] {logging_mixin.py:115} INFO - [2023-03-07 09:07:14,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:14,313] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:14,323] {logging_mixin.py:115} INFO - [2023-03-07 09:07:14,323] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:14,334] {logging_mixin.py:115} INFO - [2023-03-07 09:07:14,334] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:07:14,342] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.064 seconds
+[2023-03-07 09:07:45,118] {processor.py:153} INFO - Started process (PID=12826) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:45,119] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:07:45,120] {logging_mixin.py:115} INFO - [2023-03-07 09:07:45,120] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:45,150] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:07:45,161] {logging_mixin.py:115} INFO - [2023-03-07 09:07:45,161] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:45,172] {logging_mixin.py:115} INFO - [2023-03-07 09:07:45,172] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:07:45,179] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.068 seconds
+[2023-03-07 09:08:17,078] {processor.py:153} INFO - Started process (PID=12900) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:17,078] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:08:17,079] {logging_mixin.py:115} INFO - [2023-03-07 09:08:17,079] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:17,090] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:17,099] {logging_mixin.py:115} INFO - [2023-03-07 09:08:17,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:17,114] {logging_mixin.py:115} INFO - [2023-03-07 09:08:17,114] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:08:17,123] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.047 seconds
+[2023-03-07 09:08:47,381] {processor.py:153} INFO - Started process (PID=12968) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:47,382] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:08:47,383] {logging_mixin.py:115} INFO - [2023-03-07 09:08:47,383] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:47,410] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:08:47,421] {logging_mixin.py:115} INFO - [2023-03-07 09:08:47,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:47,432] {logging_mixin.py:115} INFO - [2023-03-07 09:08:47,432] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:08:47,439] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.065 seconds
+[2023-03-07 09:09:19,332] {processor.py:153} INFO - Started process (PID=13042) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:19,333] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:09:19,334] {logging_mixin.py:115} INFO - [2023-03-07 09:09:19,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:19,343] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:19,355] {logging_mixin.py:115} INFO - [2023-03-07 09:09:19,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:19,369] {logging_mixin.py:115} INFO - [2023-03-07 09:09:19,369] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:09:19,376] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.047 seconds
+[2023-03-07 09:09:51,910] {processor.py:153} INFO - Started process (PID=13190) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:51,911] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-03-07 09:09:51,911] {logging_mixin.py:115} INFO - [2023-03-07 09:09:51,911] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:51,927] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-03-07 09:09:51,942] {logging_mixin.py:115} INFO - [2023-03-07 09:09:51,942] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:51,959] {logging_mixin.py:115} INFO - [2023-03-07 09:09:51,959] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-03-07 09:09:51,973] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.064 seconds

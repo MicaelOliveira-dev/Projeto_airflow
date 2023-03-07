@@ -1,0 +1,326 @@
+[2023-03-07 08:40:39,660] {processor.py:153} INFO - Started process (PID=7991) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:40:39,661] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:40:39,661] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,661] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:40:39,674] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:40:39,714] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,714] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-03-07 08:40:39,720] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,720] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-03-07 08:40:39,725] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,725] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-03-07 08:40:39,725] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,725] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:40:39,730] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,730] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2023-03-07 08:40:39,736] {logging_mixin.py:115} INFO - [2023-03-07 08:40:39,736] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:40:39.736009+00:00, run_after=2023-03-07T11:40:39.736009+00:00
+[2023-03-07 08:40:39,746] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2023-03-07 08:41:14,270] {processor.py:153} INFO - Started process (PID=8211) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:14,272] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:41:14,273] {logging_mixin.py:115} INFO - [2023-03-07 08:41:14,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:14,295] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:14,311] {logging_mixin.py:115} INFO - [2023-03-07 08:41:14,311] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:14,323] {logging_mixin.py:115} INFO - [2023-03-07 08:41:14,323] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:41:14.323635+00:00, run_after=2023-03-07T11:41:14.323635+00:00
+[2023-03-07 08:41:14,331] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2023-03-07 08:41:46,870] {processor.py:153} INFO - Started process (PID=8280) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:46,871] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:41:46,873] {logging_mixin.py:115} INFO - [2023-03-07 08:41:46,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:46,892] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:41:46,910] {logging_mixin.py:115} INFO - [2023-03-07 08:41:46,910] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:46,922] {logging_mixin.py:115} INFO - [2023-03-07 08:41:46,922] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:41:46.922228+00:00, run_after=2023-03-07T11:41:46.922228+00:00
+[2023-03-07 08:41:46,932] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2023-03-07 08:42:18,730] {processor.py:153} INFO - Started process (PID=8347) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:18,731] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:42:18,731] {logging_mixin.py:115} INFO - [2023-03-07 08:42:18,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:18,740] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:18,753] {logging_mixin.py:115} INFO - [2023-03-07 08:42:18,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:18,767] {logging_mixin.py:115} INFO - [2023-03-07 08:42:18,767] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:42:18.767019+00:00, run_after=2023-03-07T11:42:18.767019+00:00
+[2023-03-07 08:42:18,775] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2023-03-07 08:42:50,963] {processor.py:153} INFO - Started process (PID=8415) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:50,963] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:42:50,964] {logging_mixin.py:115} INFO - [2023-03-07 08:42:50,964] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:50,973] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:42:50,988] {logging_mixin.py:115} INFO - [2023-03-07 08:42:50,988] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:51,002] {logging_mixin.py:115} INFO - [2023-03-07 08:42:51,002] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:42:51.002506+00:00, run_after=2023-03-07T11:42:51.002506+00:00
+[2023-03-07 08:42:51,012] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2023-03-07 08:43:24,587] {processor.py:153} INFO - Started process (PID=8494) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:24,588] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:43:24,589] {logging_mixin.py:115} INFO - [2023-03-07 08:43:24,589] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:24,605] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:24,618] {logging_mixin.py:115} INFO - [2023-03-07 08:43:24,618] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:43:24,630] {logging_mixin.py:115} INFO - [2023-03-07 08:43:24,629] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:43:24.629850+00:00, run_after=2023-03-07T11:43:24.629850+00:00
+[2023-03-07 08:43:24,639] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2023-03-07 08:43:55,328] {processor.py:153} INFO - Started process (PID=8555) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:55,328] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:43:55,329] {logging_mixin.py:115} INFO - [2023-03-07 08:43:55,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:55,334] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:43:55,343] {logging_mixin.py:115} INFO - [2023-03-07 08:43:55,343] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:43:55,353] {logging_mixin.py:115} INFO - [2023-03-07 08:43:55,353] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:43:55.353042+00:00, run_after=2023-03-07T11:43:55.353042+00:00
+[2023-03-07 08:43:55,361] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.035 seconds
+[2023-03-07 08:44:27,315] {processor.py:153} INFO - Started process (PID=8627) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:27,316] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:44:27,317] {logging_mixin.py:115} INFO - [2023-03-07 08:44:27,317] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:27,332] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:27,345] {logging_mixin.py:115} INFO - [2023-03-07 08:44:27,345] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:44:27,356] {logging_mixin.py:115} INFO - [2023-03-07 08:44:27,356] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:44:27.356713+00:00, run_after=2023-03-07T11:44:27.356713+00:00
+[2023-03-07 08:44:27,365] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.058 seconds
+[2023-03-07 08:44:59,680] {processor.py:153} INFO - Started process (PID=8694) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:59,681] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:44:59,682] {logging_mixin.py:115} INFO - [2023-03-07 08:44:59,682] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:59,695] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:44:59,707] {logging_mixin.py:115} INFO - [2023-03-07 08:44:59,707] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:44:59,719] {logging_mixin.py:115} INFO - [2023-03-07 08:44:59,719] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:44:59.718973+00:00, run_after=2023-03-07T11:44:59.718973+00:00
+[2023-03-07 08:44:59,726] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2023-03-07 08:45:31,161] {processor.py:153} INFO - Started process (PID=8766) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:45:31,162] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:45:31,163] {logging_mixin.py:115} INFO - [2023-03-07 08:45:31,163] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:45:31,184] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:45:31,199] {logging_mixin.py:115} INFO - [2023-03-07 08:45:31,199] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:45:31,211] {logging_mixin.py:115} INFO - [2023-03-07 08:45:31,210] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:45:31.210792+00:00, run_after=2023-03-07T11:45:31.210792+00:00
+[2023-03-07 08:45:31,218] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.065 seconds
+[2023-03-07 08:46:03,718] {processor.py:153} INFO - Started process (PID=8831) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:03,719] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:46:03,720] {logging_mixin.py:115} INFO - [2023-03-07 08:46:03,720] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:03,735] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:03,753] {logging_mixin.py:115} INFO - [2023-03-07 08:46:03,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:03,767] {logging_mixin.py:115} INFO - [2023-03-07 08:46:03,767] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:46:03.766987+00:00, run_after=2023-03-07T11:46:03.766987+00:00
+[2023-03-07 08:46:03,774] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2023-03-07 08:46:36,685] {processor.py:153} INFO - Started process (PID=8914) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:36,685] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:46:36,686] {logging_mixin.py:115} INFO - [2023-03-07 08:46:36,686] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:36,692] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:46:36,703] {logging_mixin.py:115} INFO - [2023-03-07 08:46:36,703] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:36,714] {logging_mixin.py:115} INFO - [2023-03-07 08:46:36,713] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:46:36.713822+00:00, run_after=2023-03-07T11:46:36.713822+00:00
+[2023-03-07 08:46:36,721] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds
+[2023-03-07 08:47:07,347] {processor.py:153} INFO - Started process (PID=9002) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:07,348] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:47:07,348] {logging_mixin.py:115} INFO - [2023-03-07 08:47:07,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:07,354] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:07,367] {logging_mixin.py:115} INFO - [2023-03-07 08:47:07,367] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:07,380] {logging_mixin.py:115} INFO - [2023-03-07 08:47:07,380] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:47:07.380639+00:00, run_after=2023-03-07T11:47:07.380639+00:00
+[2023-03-07 08:47:07,391] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2023-03-07 08:47:38,050] {processor.py:153} INFO - Started process (PID=9078) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:38,050] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:47:38,050] {logging_mixin.py:115} INFO - [2023-03-07 08:47:38,050] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:38,054] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:47:38,065] {logging_mixin.py:115} INFO - [2023-03-07 08:47:38,065] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:38,075] {logging_mixin.py:115} INFO - [2023-03-07 08:47:38,075] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:47:38.075300+00:00, run_after=2023-03-07T11:47:38.075300+00:00
+[2023-03-07 08:47:38,092] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2023-03-07 08:48:10,853] {processor.py:153} INFO - Started process (PID=9173) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:10,854] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:48:10,854] {logging_mixin.py:115} INFO - [2023-03-07 08:48:10,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:10,859] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:10,879] {logging_mixin.py:115} INFO - [2023-03-07 08:48:10,879] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:10,890] {logging_mixin.py:115} INFO - [2023-03-07 08:48:10,890] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:48:10.890567+00:00, run_after=2023-03-07T11:48:10.890567+00:00
+[2023-03-07 08:48:10,901] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2023-03-07 08:48:42,413] {processor.py:153} INFO - Started process (PID=9246) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:42,414] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:48:42,414] {logging_mixin.py:115} INFO - [2023-03-07 08:48:42,414] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:42,420] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:48:42,434] {logging_mixin.py:115} INFO - [2023-03-07 08:48:42,434] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:42,447] {logging_mixin.py:115} INFO - [2023-03-07 08:48:42,447] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:48:42.447231+00:00, run_after=2023-03-07T11:48:42.447231+00:00
+[2023-03-07 08:48:42,456] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2023-03-07 08:49:13,405] {processor.py:153} INFO - Started process (PID=9323) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:13,406] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:49:13,407] {logging_mixin.py:115} INFO - [2023-03-07 08:49:13,407] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:13,422] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:13,440] {logging_mixin.py:115} INFO - [2023-03-07 08:49:13,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:49:13,453] {logging_mixin.py:115} INFO - [2023-03-07 08:49:13,453] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:49:13.453207+00:00, run_after=2023-03-07T11:49:13.453207+00:00
+[2023-03-07 08:49:13,462] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2023-03-07 08:49:47,626] {processor.py:153} INFO - Started process (PID=9431) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:47,627] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:49:47,627] {logging_mixin.py:115} INFO - [2023-03-07 08:49:47,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:47,632] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:49:47,644] {logging_mixin.py:115} INFO - [2023-03-07 08:49:47,644] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:49:47,657] {logging_mixin.py:115} INFO - [2023-03-07 08:49:47,657] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:49:47.656943+00:00, run_after=2023-03-07T11:49:47.656943+00:00
+[2023-03-07 08:49:47,665] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2023-03-07 08:50:19,543] {processor.py:153} INFO - Started process (PID=9518) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:19,545] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:50:19,546] {logging_mixin.py:115} INFO - [2023-03-07 08:50:19,546] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:19,563] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:19,583] {logging_mixin.py:115} INFO - [2023-03-07 08:50:19,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:19,596] {logging_mixin.py:115} INFO - [2023-03-07 08:50:19,596] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:50:19.596568+00:00, run_after=2023-03-07T11:50:19.596568+00:00
+[2023-03-07 08:50:19,629] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2023-03-07 08:50:51,058] {processor.py:153} INFO - Started process (PID=9596) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:51,059] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:50:51,061] {logging_mixin.py:115} INFO - [2023-03-07 08:50:51,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:51,073] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:50:51,087] {logging_mixin.py:115} INFO - [2023-03-07 08:50:51,087] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:51,099] {logging_mixin.py:115} INFO - [2023-03-07 08:50:51,099] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:50:51.099078+00:00, run_after=2023-03-07T11:50:51.099078+00:00
+[2023-03-07 08:50:51,108] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2023-03-07 08:51:21,838] {processor.py:153} INFO - Started process (PID=9691) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:21,839] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:51:21,841] {logging_mixin.py:115} INFO - [2023-03-07 08:51:21,840] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:21,855] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:21,870] {logging_mixin.py:115} INFO - [2023-03-07 08:51:21,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:51:21,883] {logging_mixin.py:115} INFO - [2023-03-07 08:51:21,883] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:51:21.883055+00:00, run_after=2023-03-07T11:51:21.883055+00:00
+[2023-03-07 08:51:21,890] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2023-03-07 08:51:53,647] {processor.py:153} INFO - Started process (PID=9786) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:53,648] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:51:53,649] {logging_mixin.py:115} INFO - [2023-03-07 08:51:53,649] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:53,655] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:51:53,665] {logging_mixin.py:115} INFO - [2023-03-07 08:51:53,665] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:51:53,676] {logging_mixin.py:115} INFO - [2023-03-07 08:51:53,676] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:51:53.676743+00:00, run_after=2023-03-07T11:51:53.676743+00:00
+[2023-03-07 08:51:53,685] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds
+[2023-03-07 08:52:25,920] {processor.py:153} INFO - Started process (PID=9867) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:52:25,921] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:52:25,923] {logging_mixin.py:115} INFO - [2023-03-07 08:52:25,923] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:52:25,947] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:52:25,974] {logging_mixin.py:115} INFO - [2023-03-07 08:52:25,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:52:26,002] {logging_mixin.py:115} INFO - [2023-03-07 08:52:26,002] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:52:26.001905+00:00, run_after=2023-03-07T11:52:26.001905+00:00
+[2023-03-07 08:52:26,019] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.101 seconds
+[2023-03-07 08:53:01,254] {processor.py:153} INFO - Started process (PID=9967) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:01,259] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:53:01,260] {logging_mixin.py:115} INFO - [2023-03-07 08:53:01,259] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:01,267] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:01,283] {logging_mixin.py:115} INFO - [2023-03-07 08:53:01,283] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:01,300] {logging_mixin.py:115} INFO - [2023-03-07 08:53:01,300] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:53:01.299887+00:00, run_after=2023-03-07T11:53:01.299887+00:00
+[2023-03-07 08:53:01,378] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.126 seconds
+[2023-03-07 08:53:35,301] {processor.py:153} INFO - Started process (PID=10039) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:35,301] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:53:35,302] {logging_mixin.py:115} INFO - [2023-03-07 08:53:35,302] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:35,313] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:53:35,328] {logging_mixin.py:115} INFO - [2023-03-07 08:53:35,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:35,338] {logging_mixin.py:115} INFO - [2023-03-07 08:53:35,338] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:53:35.338401+00:00, run_after=2023-03-07T11:53:35.338401+00:00
+[2023-03-07 08:53:35,348] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2023-03-07 08:54:07,156] {processor.py:153} INFO - Started process (PID=10123) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:07,156] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:54:07,157] {logging_mixin.py:115} INFO - [2023-03-07 08:54:07,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:07,163] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:07,175] {logging_mixin.py:115} INFO - [2023-03-07 08:54:07,175] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:07,187] {logging_mixin.py:115} INFO - [2023-03-07 08:54:07,187] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:54:07.187114+00:00, run_after=2023-03-07T11:54:07.187114+00:00
+[2023-03-07 08:54:07,198] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2023-03-07 08:54:27,645] {processor.py:153} INFO - Started process (PID=10288) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:27,686] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:54:27,686] {logging_mixin.py:115} INFO - [2023-03-07 08:54:27,686] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:27,691] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:27,700] {logging_mixin.py:115} INFO - [2023-03-07 08:54:27,700] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:27,712] {logging_mixin.py:115} INFO - [2023-03-07 08:54:27,712] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:54:27.712509+00:00, run_after=2023-03-07T11:54:27.712509+00:00
+[2023-03-07 08:54:27,720] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
+[2023-03-07 08:54:58,098] {processor.py:153} INFO - Started process (PID=10873) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:58,099] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:54:58,099] {logging_mixin.py:115} INFO - [2023-03-07 08:54:58,099] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:58,104] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:54:58,118] {logging_mixin.py:115} INFO - [2023-03-07 08:54:58,118] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:58,133] {logging_mixin.py:115} INFO - [2023-03-07 08:54:58,133] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:54:58.133684+00:00, run_after=2023-03-07T11:54:58.133684+00:00
+[2023-03-07 08:54:58,146] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2023-03-07 08:55:31,708] {processor.py:153} INFO - Started process (PID=10944) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:55:31,710] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:55:31,711] {logging_mixin.py:115} INFO - [2023-03-07 08:55:31,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:55:31,723] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:55:31,738] {logging_mixin.py:115} INFO - [2023-03-07 08:55:31,738] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:55:31,750] {logging_mixin.py:115} INFO - [2023-03-07 08:55:31,750] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:55:31.750570+00:00, run_after=2023-03-07T11:55:31.750570+00:00
+[2023-03-07 08:55:31,758] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2023-03-07 08:56:05,327] {processor.py:153} INFO - Started process (PID=11010) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:56:05,328] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 08:56:05,328] {logging_mixin.py:115} INFO - [2023-03-07 08:56:05,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:56:05,334] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 08:56:05,346] {logging_mixin.py:115} INFO - [2023-03-07 08:56:05,346] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:56:05,359] {logging_mixin.py:115} INFO - [2023-03-07 08:56:05,359] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T11:56:05.359640+00:00, run_after=2023-03-07T11:56:05.359640+00:00
+[2023-03-07 08:56:05,367] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2023-03-07 09:01:47,063] {processor.py:153} INFO - Started process (PID=11566) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:01:47,064] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:01:47,065] {logging_mixin.py:115} INFO - [2023-03-07 09:01:47,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:01:47,080] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:01:47,097] {logging_mixin.py:115} INFO - [2023-03-07 09:01:47,096] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:01:47,109] {logging_mixin.py:115} INFO - [2023-03-07 09:01:47,109] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:01:47.109141+00:00, run_after=2023-03-07T12:01:47.109141+00:00
+[2023-03-07 09:01:47,116] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2023-03-07 09:02:18,341] {processor.py:153} INFO - Started process (PID=11932) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:18,342] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:02:18,342] {logging_mixin.py:115} INFO - [2023-03-07 09:02:18,342] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:18,346] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:18,359] {logging_mixin.py:115} INFO - [2023-03-07 09:02:18,359] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:18,373] {logging_mixin.py:115} INFO - [2023-03-07 09:02:18,373] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:02:18.373618+00:00, run_after=2023-03-07T12:02:18.373618+00:00
+[2023-03-07 09:02:18,382] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2023-03-07 09:02:51,425] {processor.py:153} INFO - Started process (PID=12011) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:51,426] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:02:51,427] {logging_mixin.py:115} INFO - [2023-03-07 09:02:51,427] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:51,440] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:02:51,458] {logging_mixin.py:115} INFO - [2023-03-07 09:02:51,458] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:51,474] {logging_mixin.py:115} INFO - [2023-03-07 09:02:51,473] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:02:51.473844+00:00, run_after=2023-03-07T12:02:51.473844+00:00
+[2023-03-07 09:02:51,481] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.061 seconds
+[2023-03-07 09:03:23,815] {processor.py:153} INFO - Started process (PID=12175) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:23,816] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:03:23,816] {logging_mixin.py:115} INFO - [2023-03-07 09:03:23,816] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:23,824] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:23,837] {logging_mixin.py:115} INFO - [2023-03-07 09:03:23,837] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:03:23,853] {logging_mixin.py:115} INFO - [2023-03-07 09:03:23,853] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:03:23.853608+00:00, run_after=2023-03-07T12:03:23.853608+00:00
+[2023-03-07 09:03:23,865] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2023-03-07 09:03:55,939] {processor.py:153} INFO - Started process (PID=12256) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:55,941] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:03:55,942] {logging_mixin.py:115} INFO - [2023-03-07 09:03:55,942] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:55,955] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:03:55,971] {logging_mixin.py:115} INFO - [2023-03-07 09:03:55,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:03:55,983] {logging_mixin.py:115} INFO - [2023-03-07 09:03:55,983] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:03:55.983008+00:00, run_after=2023-03-07T12:03:55.983008+00:00
+[2023-03-07 09:03:55,991] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2023-03-07 09:04:30,094] {processor.py:153} INFO - Started process (PID=12338) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:04:30,095] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:04:30,096] {logging_mixin.py:115} INFO - [2023-03-07 09:04:30,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:04:30,108] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:04:30,127] {logging_mixin.py:115} INFO - [2023-03-07 09:04:30,127] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:04:30,140] {logging_mixin.py:115} INFO - [2023-03-07 09:04:30,140] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:04:30.140206+00:00, run_after=2023-03-07T12:04:30.140206+00:00
+[2023-03-07 09:04:30,148] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.058 seconds
+[2023-03-07 09:05:02,452] {processor.py:153} INFO - Started process (PID=12425) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:02,453] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:05:02,453] {logging_mixin.py:115} INFO - [2023-03-07 09:05:02,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:02,457] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:02,470] {logging_mixin.py:115} INFO - [2023-03-07 09:05:02,470] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:02,498] {logging_mixin.py:115} INFO - [2023-03-07 09:05:02,498] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:05:02.497876+00:00, run_after=2023-03-07T12:05:02.497876+00:00
+[2023-03-07 09:05:02,515] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.065 seconds
+[2023-03-07 09:05:33,290] {processor.py:153} INFO - Started process (PID=12489) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:33,291] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:05:33,293] {logging_mixin.py:115} INFO - [2023-03-07 09:05:33,292] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:33,308] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:05:33,325] {logging_mixin.py:115} INFO - [2023-03-07 09:05:33,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:33,338] {logging_mixin.py:115} INFO - [2023-03-07 09:05:33,338] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:05:33.338100+00:00, run_after=2023-03-07T12:05:33.338100+00:00
+[2023-03-07 09:05:33,371] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2023-03-07 09:06:07,110] {processor.py:153} INFO - Started process (PID=12567) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:07,112] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:06:07,113] {logging_mixin.py:115} INFO - [2023-03-07 09:06:07,113] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:07,126] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:07,141] {logging_mixin.py:115} INFO - [2023-03-07 09:06:07,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:07,153] {logging_mixin.py:115} INFO - [2023-03-07 09:06:07,153] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:06:07.153429+00:00, run_after=2023-03-07T12:06:07.153429+00:00
+[2023-03-07 09:06:07,161] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2023-03-07 09:06:37,461] {processor.py:153} INFO - Started process (PID=12623) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:37,462] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:06:37,463] {logging_mixin.py:115} INFO - [2023-03-07 09:06:37,463] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:37,477] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:06:37,493] {logging_mixin.py:115} INFO - [2023-03-07 09:06:37,493] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:37,506] {logging_mixin.py:115} INFO - [2023-03-07 09:06:37,505] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:06:37.505836+00:00, run_after=2023-03-07T12:06:37.505836+00:00
+[2023-03-07 09:06:37,513] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2023-03-07 09:07:08,887] {processor.py:153} INFO - Started process (PID=12701) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:08,888] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:07:08,889] {logging_mixin.py:115} INFO - [2023-03-07 09:07:08,889] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:08,905] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:08,921] {logging_mixin.py:115} INFO - [2023-03-07 09:07:08,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:08,935] {logging_mixin.py:115} INFO - [2023-03-07 09:07:08,935] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:07:08.935429+00:00, run_after=2023-03-07T12:07:08.935429+00:00
+[2023-03-07 09:07:08,943] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2023-03-07 09:07:41,690] {processor.py:153} INFO - Started process (PID=12817) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:41,691] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:07:41,691] {logging_mixin.py:115} INFO - [2023-03-07 09:07:41,691] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:41,700] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:07:41,716] {logging_mixin.py:115} INFO - [2023-03-07 09:07:41,716] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:41,730] {logging_mixin.py:115} INFO - [2023-03-07 09:07:41,730] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:07:41.730686+00:00, run_after=2023-03-07T12:07:41.730686+00:00
+[2023-03-07 09:07:41,740] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2023-03-07 09:08:13,657] {processor.py:153} INFO - Started process (PID=12897) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:13,658] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:08:13,659] {logging_mixin.py:115} INFO - [2023-03-07 09:08:13,659] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:13,675] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:13,692] {logging_mixin.py:115} INFO - [2023-03-07 09:08:13,692] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:13,704] {logging_mixin.py:115} INFO - [2023-03-07 09:08:13,704] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:08:13.704052+00:00, run_after=2023-03-07T12:08:13.704052+00:00
+[2023-03-07 09:08:13,712] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.061 seconds
+[2023-03-07 09:08:45,683] {processor.py:153} INFO - Started process (PID=12966) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:45,684] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:08:45,686] {logging_mixin.py:115} INFO - [2023-03-07 09:08:45,685] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:45,703] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:08:45,719] {logging_mixin.py:115} INFO - [2023-03-07 09:08:45,719] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:45,732] {logging_mixin.py:115} INFO - [2023-03-07 09:08:45,732] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:08:45.732309+00:00, run_after=2023-03-07T12:08:45.732309+00:00
+[2023-03-07 09:08:45,740] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2023-03-07 09:09:17,613] {processor.py:153} INFO - Started process (PID=13032) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:17,614] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:09:17,616] {logging_mixin.py:115} INFO - [2023-03-07 09:09:17,615] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:17,624] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:17,636] {logging_mixin.py:115} INFO - [2023-03-07 09:09:17,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:17,648] {logging_mixin.py:115} INFO - [2023-03-07 09:09:17,648] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:09:17.647852+00:00, run_after=2023-03-07T12:09:17.647852+00:00
+[2023-03-07 09:09:17,656] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2023-03-07 09:09:50,532] {processor.py:153} INFO - Started process (PID=13187) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:50,533] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-03-07 09:09:50,534] {logging_mixin.py:115} INFO - [2023-03-07 09:09:50,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:50,541] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-03-07 09:09:50,554] {logging_mixin.py:115} INFO - [2023-03-07 09:09:50,554] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:50,573] {logging_mixin.py:115} INFO - [2023-03-07 09:09:50,573] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-03-06T12:09:50.573679+00:00, run_after=2023-03-07T12:09:50.573679+00:00
+[2023-03-07 09:09:50,588] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds

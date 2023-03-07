@@ -1,0 +1,319 @@
+[2023-03-07 08:40:46,214] {processor.py:153} INFO - Started process (PID=8143) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:40:46,216] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:40:46,217] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,217] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:40:46,242] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:40:46,290] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,290] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2023-03-07 08:40:46,296] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,296] {manager.py:508} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2023-03-07 08:40:46,301] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,301] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2023-03-07 08:40:46,301] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,301] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:40:46,305] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,305] {dag.py:2398} INFO - Creating ORM DAG for example_short_circuit_operator
+[2023-03-07 08:40:46,311] {logging_mixin.py:115} INFO - [2023-03-07 08:40:46,311] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:40:46.311319+00:00, run_after=2023-03-07T11:40:46.311319+00:00
+[2023-03-07 08:40:46,321] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.114 seconds
+[2023-03-07 08:41:19,392] {processor.py:153} INFO - Started process (PID=8234) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:19,393] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:41:19,393] {logging_mixin.py:115} INFO - [2023-03-07 08:41:19,393] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:19,403] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:19,416] {logging_mixin.py:115} INFO - [2023-03-07 08:41:19,416] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:19,430] {logging_mixin.py:115} INFO - [2023-03-07 08:41:19,430] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:41:19.429988+00:00, run_after=2023-03-07T11:41:19.429988+00:00
+[2023-03-07 08:41:19,438] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.048 seconds
+[2023-03-07 08:41:52,006] {processor.py:153} INFO - Started process (PID=8293) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:52,007] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:41:52,009] {logging_mixin.py:115} INFO - [2023-03-07 08:41:52,009] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:52,032] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:41:52,045] {logging_mixin.py:115} INFO - [2023-03-07 08:41:52,045] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:41:52,057] {logging_mixin.py:115} INFO - [2023-03-07 08:41:52,057] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:41:52.056883+00:00, run_after=2023-03-07T11:41:52.056883+00:00
+[2023-03-07 08:41:52,065] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.065 seconds
+[2023-03-07 08:42:26,139] {processor.py:153} INFO - Started process (PID=8363) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:26,140] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:42:26,142] {logging_mixin.py:115} INFO - [2023-03-07 08:42:26,141] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:26,163] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:26,177] {logging_mixin.py:115} INFO - [2023-03-07 08:42:26,177] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:26,189] {logging_mixin.py:115} INFO - [2023-03-07 08:42:26,188] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:42:26.188817+00:00, run_after=2023-03-07T11:42:26.188817+00:00
+[2023-03-07 08:42:26,197] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.065 seconds
+[2023-03-07 08:42:58,103] {processor.py:153} INFO - Started process (PID=8429) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:58,104] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:42:58,106] {logging_mixin.py:115} INFO - [2023-03-07 08:42:58,105] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:58,118] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:42:58,130] {logging_mixin.py:115} INFO - [2023-03-07 08:42:58,130] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:42:58,140] {logging_mixin.py:115} INFO - [2023-03-07 08:42:58,140] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:42:58.140733+00:00, run_after=2023-03-07T11:42:58.140733+00:00
+[2023-03-07 08:42:58,147] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.049 seconds
+[2023-03-07 08:43:33,030] {processor.py:153} INFO - Started process (PID=8511) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:43:33,032] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:43:33,033] {logging_mixin.py:115} INFO - [2023-03-07 08:43:33,033] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:43:33,053] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:43:33,066] {logging_mixin.py:115} INFO - [2023-03-07 08:43:33,066] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:43:33,078] {logging_mixin.py:115} INFO - [2023-03-07 08:43:33,078] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:43:33.077998+00:00, run_after=2023-03-07T11:43:33.077998+00:00
+[2023-03-07 08:43:33,085] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.061 seconds
+[2023-03-07 08:44:03,884] {processor.py:153} INFO - Started process (PID=8574) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:03,884] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:44:03,886] {logging_mixin.py:115} INFO - [2023-03-07 08:44:03,886] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:03,910] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:03,925] {logging_mixin.py:115} INFO - [2023-03-07 08:44:03,925] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:44:03,937] {logging_mixin.py:115} INFO - [2023-03-07 08:44:03,937] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:44:03.937589+00:00, run_after=2023-03-07T11:44:03.937589+00:00
+[2023-03-07 08:44:03,947] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.070 seconds
+[2023-03-07 08:44:36,916] {processor.py:153} INFO - Started process (PID=8653) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:36,917] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:44:36,919] {logging_mixin.py:115} INFO - [2023-03-07 08:44:36,919] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:36,938] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:44:36,953] {logging_mixin.py:115} INFO - [2023-03-07 08:44:36,953] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:44:36,966] {logging_mixin.py:115} INFO - [2023-03-07 08:44:36,966] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:44:36.966160+00:00, run_after=2023-03-07T11:44:36.966160+00:00
+[2023-03-07 08:44:36,973] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.065 seconds
+[2023-03-07 08:45:08,681] {processor.py:153} INFO - Started process (PID=8718) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:08,682] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:45:08,684] {logging_mixin.py:115} INFO - [2023-03-07 08:45:08,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:08,704] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:08,718] {logging_mixin.py:115} INFO - [2023-03-07 08:45:08,718] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:45:08,732] {logging_mixin.py:115} INFO - [2023-03-07 08:45:08,732] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:45:08.731983+00:00, run_after=2023-03-07T11:45:08.731983+00:00
+[2023-03-07 08:45:08,740] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.066 seconds
+[2023-03-07 08:45:40,158] {processor.py:153} INFO - Started process (PID=8783) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:40,159] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:45:40,161] {logging_mixin.py:115} INFO - [2023-03-07 08:45:40,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:40,178] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:45:40,193] {logging_mixin.py:115} INFO - [2023-03-07 08:45:40,193] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:45:40,205] {logging_mixin.py:115} INFO - [2023-03-07 08:45:40,204] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:45:40.204831+00:00, run_after=2023-03-07T11:45:40.204831+00:00
+[2023-03-07 08:45:40,213] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 08:46:12,811] {processor.py:153} INFO - Started process (PID=8852) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:12,812] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:46:12,813] {logging_mixin.py:115} INFO - [2023-03-07 08:46:12,813] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:12,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:12,854] {logging_mixin.py:115} INFO - [2023-03-07 08:46:12,854] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:12,865] {logging_mixin.py:115} INFO - [2023-03-07 08:46:12,865] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:46:12.864872+00:00, run_after=2023-03-07T11:46:12.864872+00:00
+[2023-03-07 08:46:12,872] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.068 seconds
+[2023-03-07 08:46:44,660] {processor.py:153} INFO - Started process (PID=8940) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:44,660] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:46:44,660] {logging_mixin.py:115} INFO - [2023-03-07 08:46:44,660] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:44,665] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:46:44,674] {logging_mixin.py:115} INFO - [2023-03-07 08:46:44,674] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:46:44,684] {logging_mixin.py:115} INFO - [2023-03-07 08:46:44,684] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:46:44.684419+00:00, run_after=2023-03-07T11:46:44.684419+00:00
+[2023-03-07 08:46:44,692] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.034 seconds
+[2023-03-07 08:47:18,641] {processor.py:153} INFO - Started process (PID=9027) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:18,642] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:47:18,642] {logging_mixin.py:115} INFO - [2023-03-07 08:47:18,642] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:18,647] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:18,657] {logging_mixin.py:115} INFO - [2023-03-07 08:47:18,657] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:18,668] {logging_mixin.py:115} INFO - [2023-03-07 08:47:18,668] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:47:18.668363+00:00, run_after=2023-03-07T11:47:18.668363+00:00
+[2023-03-07 08:47:18,676] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.036 seconds
+[2023-03-07 08:47:50,587] {processor.py:153} INFO - Started process (PID=9123) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:50,587] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:47:50,587] {logging_mixin.py:115} INFO - [2023-03-07 08:47:50,587] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:50,595] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:47:50,609] {logging_mixin.py:115} INFO - [2023-03-07 08:47:50,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:47:50,623] {logging_mixin.py:115} INFO - [2023-03-07 08:47:50,623] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:47:50.623557+00:00, run_after=2023-03-07T11:47:50.623557+00:00
+[2023-03-07 08:47:50,636] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.051 seconds
+[2023-03-07 08:48:23,722] {processor.py:153} INFO - Started process (PID=9201) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:23,722] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:48:23,723] {logging_mixin.py:115} INFO - [2023-03-07 08:48:23,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:23,730] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:23,745] {logging_mixin.py:115} INFO - [2023-03-07 08:48:23,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:23,758] {logging_mixin.py:115} INFO - [2023-03-07 08:48:23,758] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:48:23.758012+00:00, run_after=2023-03-07T11:48:23.758012+00:00
+[2023-03-07 08:48:23,766] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.046 seconds
+[2023-03-07 08:48:56,263] {processor.py:153} INFO - Started process (PID=9280) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:56,265] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:48:56,266] {logging_mixin.py:115} INFO - [2023-03-07 08:48:56,266] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:56,282] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:48:56,297] {logging_mixin.py:115} INFO - [2023-03-07 08:48:56,297] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:48:56,309] {logging_mixin.py:115} INFO - [2023-03-07 08:48:56,309] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:48:56.308925+00:00, run_after=2023-03-07T11:48:56.308925+00:00
+[2023-03-07 08:48:56,316] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.061 seconds
+[2023-03-07 08:49:28,806] {processor.py:153} INFO - Started process (PID=9367) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:49:28,807] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:49:28,808] {logging_mixin.py:115} INFO - [2023-03-07 08:49:28,808] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:49:28,820] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:49:28,838] {logging_mixin.py:115} INFO - [2023-03-07 08:49:28,838] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:49:28,851] {logging_mixin.py:115} INFO - [2023-03-07 08:49:28,851] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:49:28.851435+00:00, run_after=2023-03-07T11:49:28.851435+00:00
+[2023-03-07 08:49:28,860] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.057 seconds
+[2023-03-07 08:50:01,862] {processor.py:153} INFO - Started process (PID=9476) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:01,862] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:50:01,863] {logging_mixin.py:115} INFO - [2023-03-07 08:50:01,863] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:01,869] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:01,880] {logging_mixin.py:115} INFO - [2023-03-07 08:50:01,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:01,891] {logging_mixin.py:115} INFO - [2023-03-07 08:50:01,891] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:50:01.890910+00:00, run_after=2023-03-07T11:50:01.890910+00:00
+[2023-03-07 08:50:01,900] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.040 seconds
+[2023-03-07 08:50:33,762] {processor.py:153} INFO - Started process (PID=9554) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:33,763] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:50:33,764] {logging_mixin.py:115} INFO - [2023-03-07 08:50:33,763] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:33,770] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:50:33,781] {logging_mixin.py:115} INFO - [2023-03-07 08:50:33,780] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:50:33,792] {logging_mixin.py:115} INFO - [2023-03-07 08:50:33,792] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:50:33.792456+00:00, run_after=2023-03-07T11:50:33.792456+00:00
+[2023-03-07 08:50:33,802] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.041 seconds
+[2023-03-07 08:51:07,570] {processor.py:153} INFO - Started process (PID=9633) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:07,572] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:51:07,573] {logging_mixin.py:115} INFO - [2023-03-07 08:51:07,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:07,590] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:07,605] {logging_mixin.py:115} INFO - [2023-03-07 08:51:07,604] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:51:07,616] {logging_mixin.py:115} INFO - [2023-03-07 08:51:07,616] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:51:07.616551+00:00, run_after=2023-03-07T11:51:07.616551+00:00
+[2023-03-07 08:51:07,624] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 08:51:38,365] {processor.py:153} INFO - Started process (PID=9737) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:38,366] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:51:38,366] {logging_mixin.py:115} INFO - [2023-03-07 08:51:38,366] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:38,373] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:51:38,385] {logging_mixin.py:115} INFO - [2023-03-07 08:51:38,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:51:38,399] {logging_mixin.py:115} INFO - [2023-03-07 08:51:38,399] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:51:38.399448+00:00, run_after=2023-03-07T11:51:38.399448+00:00
+[2023-03-07 08:51:38,408] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.044 seconds
+[2023-03-07 08:52:13,073] {processor.py:153} INFO - Started process (PID=9823) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:13,074] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:52:13,075] {logging_mixin.py:115} INFO - [2023-03-07 08:52:13,075] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:13,093] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:13,110] {logging_mixin.py:115} INFO - [2023-03-07 08:52:13,110] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:52:13,121] {logging_mixin.py:115} INFO - [2023-03-07 08:52:13,121] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:52:13.120973+00:00, run_after=2023-03-07T11:52:13.120973+00:00
+[2023-03-07 08:52:13,128] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 08:52:45,581] {processor.py:153} INFO - Started process (PID=9913) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:45,582] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:52:45,583] {logging_mixin.py:115} INFO - [2023-03-07 08:52:45,583] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:45,595] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:52:45,608] {logging_mixin.py:115} INFO - [2023-03-07 08:52:45,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:52:45,621] {logging_mixin.py:115} INFO - [2023-03-07 08:52:45,621] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:52:45.621086+00:00, run_after=2023-03-07T11:52:45.621086+00:00
+[2023-03-07 08:52:45,670] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.095 seconds
+[2023-03-07 08:53:25,099] {processor.py:153} INFO - Started process (PID=10018) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:25,100] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:53:25,100] {logging_mixin.py:115} INFO - [2023-03-07 08:53:25,100] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:25,107] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:25,119] {logging_mixin.py:115} INFO - [2023-03-07 08:53:25,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:25,130] {logging_mixin.py:115} INFO - [2023-03-07 08:53:25,130] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:53:25.130010+00:00, run_after=2023-03-07T11:53:25.130010+00:00
+[2023-03-07 08:53:25,138] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.040 seconds
+[2023-03-07 08:53:57,035] {processor.py:153} INFO - Started process (PID=10090) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:57,037] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:53:57,038] {logging_mixin.py:115} INFO - [2023-03-07 08:53:57,038] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:57,059] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:53:57,075] {logging_mixin.py:115} INFO - [2023-03-07 08:53:57,075] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:53:57,086] {logging_mixin.py:115} INFO - [2023-03-07 08:53:57,086] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:53:57.086488+00:00, run_after=2023-03-07T11:53:57.086488+00:00
+[2023-03-07 08:53:57,094] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.065 seconds
+[2023-03-07 08:54:32,969] {processor.py:153} INFO - Started process (PID=10435) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:54:32,991] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:54:32,993] {logging_mixin.py:115} INFO - [2023-03-07 08:54:32,993] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:54:33,000] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:54:33,018] {logging_mixin.py:115} INFO - [2023-03-07 08:54:33,018] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:54:33,049] {logging_mixin.py:115} INFO - [2023-03-07 08:54:33,049] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:54:33.049619+00:00, run_after=2023-03-07T11:54:33.049619+00:00
+[2023-03-07 08:54:33,064] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.097 seconds
+[2023-03-07 08:55:03,400] {processor.py:153} INFO - Started process (PID=10884) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:03,400] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:55:03,400] {logging_mixin.py:115} INFO - [2023-03-07 08:55:03,400] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:03,405] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:03,415] {logging_mixin.py:115} INFO - [2023-03-07 08:55:03,415] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:55:03,426] {logging_mixin.py:115} INFO - [2023-03-07 08:55:03,426] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:55:03.426463+00:00, run_after=2023-03-07T11:55:03.426463+00:00
+[2023-03-07 08:55:03,434] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.036 seconds
+[2023-03-07 08:55:37,976] {processor.py:153} INFO - Started process (PID=10952) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:37,977] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:55:37,978] {logging_mixin.py:115} INFO - [2023-03-07 08:55:37,978] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:37,994] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:55:38,009] {logging_mixin.py:115} INFO - [2023-03-07 08:55:38,008] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:55:38,021] {logging_mixin.py:115} INFO - [2023-03-07 08:55:38,021] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:55:38.020904+00:00, run_after=2023-03-07T11:55:38.020904+00:00
+[2023-03-07 08:55:38,031] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 08:56:11,615] {processor.py:153} INFO - Started process (PID=11021) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:56:11,617] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 08:56:11,618] {logging_mixin.py:115} INFO - [2023-03-07 08:56:11,618] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:56:11,633] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 08:56:11,647] {logging_mixin.py:115} INFO - [2023-03-07 08:56:11,647] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 08:56:11,659] {logging_mixin.py:115} INFO - [2023-03-07 08:56:11,659] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T11:56:11.658946+00:00, run_after=2023-03-07T11:56:11.658946+00:00
+[2023-03-07 08:56:11,667] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.059 seconds
+[2023-03-07 09:01:52,492] {processor.py:153} INFO - Started process (PID=11851) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:01:52,493] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:01:52,493] {logging_mixin.py:115} INFO - [2023-03-07 09:01:52,493] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:01:52,507] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:01:52,530] {logging_mixin.py:115} INFO - [2023-03-07 09:01:52,530] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:01:52,564] {logging_mixin.py:115} INFO - [2023-03-07 09:01:52,564] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:01:52.563827+00:00, run_after=2023-03-07T12:01:52.563827+00:00
+[2023-03-07 09:01:52,595] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.109 seconds
+[2023-03-07 09:02:23,484] {processor.py:153} INFO - Started process (PID=11945) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:23,484] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:02:23,485] {logging_mixin.py:115} INFO - [2023-03-07 09:02:23,485] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:23,493] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:23,505] {logging_mixin.py:115} INFO - [2023-03-07 09:02:23,505] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:23,517] {logging_mixin.py:115} INFO - [2023-03-07 09:02:23,517] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:02:23.516965+00:00, run_after=2023-03-07T12:02:23.516965+00:00
+[2023-03-07 09:02:23,529] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.049 seconds
+[2023-03-07 09:02:57,682] {processor.py:153} INFO - Started process (PID=12030) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:57,683] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:02:57,683] {logging_mixin.py:115} INFO - [2023-03-07 09:02:57,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:57,694] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:02:57,709] {logging_mixin.py:115} INFO - [2023-03-07 09:02:57,709] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:02:57,725] {logging_mixin.py:115} INFO - [2023-03-07 09:02:57,725] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:02:57.725761+00:00, run_after=2023-03-07T12:02:57.725761+00:00
+[2023-03-07 09:02:57,742] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.063 seconds
+[2023-03-07 09:03:29,551] {processor.py:153} INFO - Started process (PID=12189) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:03:29,552] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:03:29,553] {logging_mixin.py:115} INFO - [2023-03-07 09:03:29,553] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:03:29,560] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:03:29,572] {logging_mixin.py:115} INFO - [2023-03-07 09:03:29,572] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:03:29,587] {logging_mixin.py:115} INFO - [2023-03-07 09:03:29,587] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:03:29.587135+00:00, run_after=2023-03-07T12:03:29.587135+00:00
+[2023-03-07 09:03:29,609] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.059 seconds
+[2023-03-07 09:04:02,100] {processor.py:153} INFO - Started process (PID=12271) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:02,102] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:04:02,103] {logging_mixin.py:115} INFO - [2023-03-07 09:04:02,103] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:02,120] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:02,136] {logging_mixin.py:115} INFO - [2023-03-07 09:04:02,135] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:04:02,147] {logging_mixin.py:115} INFO - [2023-03-07 09:04:02,147] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:04:02.147474+00:00, run_after=2023-03-07T12:04:02.147474+00:00
+[2023-03-07 09:04:02,155] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.061 seconds
+[2023-03-07 09:04:35,869] {processor.py:153} INFO - Started process (PID=12357) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:35,869] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:04:35,870] {logging_mixin.py:115} INFO - [2023-03-07 09:04:35,870] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:35,878] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:04:35,893] {logging_mixin.py:115} INFO - [2023-03-07 09:04:35,893] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:04:35,905] {logging_mixin.py:115} INFO - [2023-03-07 09:04:35,905] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:04:35.904947+00:00, run_after=2023-03-07T12:04:35.904947+00:00
+[2023-03-07 09:04:35,913] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.047 seconds
+[2023-03-07 09:05:09,875] {processor.py:153} INFO - Started process (PID=12444) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:09,877] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:05:09,878] {logging_mixin.py:115} INFO - [2023-03-07 09:05:09,878] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:09,900] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:09,915] {logging_mixin.py:115} INFO - [2023-03-07 09:05:09,915] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:09,927] {logging_mixin.py:115} INFO - [2023-03-07 09:05:09,927] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:05:09.927094+00:00, run_after=2023-03-07T12:05:09.927094+00:00
+[2023-03-07 09:05:09,934] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.067 seconds
+[2023-03-07 09:05:41,832] {processor.py:153} INFO - Started process (PID=12507) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:41,833] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:05:41,834] {logging_mixin.py:115} INFO - [2023-03-07 09:05:41,834] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:41,847] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:05:41,861] {logging_mixin.py:115} INFO - [2023-03-07 09:05:41,860] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:05:41,872] {logging_mixin.py:115} INFO - [2023-03-07 09:05:41,872] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:05:41.872314+00:00, run_after=2023-03-07T12:05:41.872314+00:00
+[2023-03-07 09:05:41,880] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.055 seconds
+[2023-03-07 09:06:14,925] {processor.py:153} INFO - Started process (PID=12583) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:14,926] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:06:14,927] {logging_mixin.py:115} INFO - [2023-03-07 09:06:14,927] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:14,945] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:14,961] {logging_mixin.py:115} INFO - [2023-03-07 09:06:14,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:14,973] {logging_mixin.py:115} INFO - [2023-03-07 09:06:14,973] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:06:14.973286+00:00, run_after=2023-03-07T12:06:14.973286+00:00
+[2023-03-07 09:06:14,981] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 09:06:46,331] {processor.py:153} INFO - Started process (PID=12642) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:46,332] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:06:46,333] {logging_mixin.py:115} INFO - [2023-03-07 09:06:46,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:46,352] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:06:46,368] {logging_mixin.py:115} INFO - [2023-03-07 09:06:46,368] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:06:46,379] {logging_mixin.py:115} INFO - [2023-03-07 09:06:46,379] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:06:46.379751+00:00, run_after=2023-03-07T12:06:46.379751+00:00
+[2023-03-07 09:06:46,387] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.063 seconds
+[2023-03-07 09:07:20,143] {processor.py:153} INFO - Started process (PID=12726) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:20,145] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:07:20,146] {logging_mixin.py:115} INFO - [2023-03-07 09:07:20,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:20,164] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:20,181] {logging_mixin.py:115} INFO - [2023-03-07 09:07:20,181] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:20,193] {logging_mixin.py:115} INFO - [2023-03-07 09:07:20,193] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:07:20.193179+00:00, run_after=2023-03-07T12:07:20.193179+00:00
+[2023-03-07 09:07:20,202] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.065 seconds
+[2023-03-07 09:07:51,952] {processor.py:153} INFO - Started process (PID=12842) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:51,954] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:07:51,955] {logging_mixin.py:115} INFO - [2023-03-07 09:07:51,955] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:51,974] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:07:51,989] {logging_mixin.py:115} INFO - [2023-03-07 09:07:51,989] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:07:52,001] {logging_mixin.py:115} INFO - [2023-03-07 09:07:52,001] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:07:52.001465+00:00, run_after=2023-03-07T12:07:52.001465+00:00
+[2023-03-07 09:07:52,009] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.063 seconds
+[2023-03-07 09:08:23,948] {processor.py:153} INFO - Started process (PID=12916) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:23,949] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:08:23,950] {logging_mixin.py:115} INFO - [2023-03-07 09:08:23,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:23,968] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:23,984] {logging_mixin.py:115} INFO - [2023-03-07 09:08:23,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:23,995] {logging_mixin.py:115} INFO - [2023-03-07 09:08:23,995] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:08:23.995526+00:00, run_after=2023-03-07T12:08:23.995526+00:00
+[2023-03-07 09:08:24,003] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.062 seconds
+[2023-03-07 09:08:55,906] {processor.py:153} INFO - Started process (PID=12995) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:55,906] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:08:55,907] {logging_mixin.py:115} INFO - [2023-03-07 09:08:55,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:55,912] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:08:55,921] {logging_mixin.py:115} INFO - [2023-03-07 09:08:55,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:08:55,931] {logging_mixin.py:115} INFO - [2023-03-07 09:08:55,931] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:08:55.931150+00:00, run_after=2023-03-07T12:08:55.931150+00:00
+[2023-03-07 09:08:55,942] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.038 seconds
+[2023-03-07 09:09:29,611] {processor.py:153} INFO - Started process (PID=13071) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:29,613] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:09:29,614] {logging_mixin.py:115} INFO - [2023-03-07 09:09:29,614] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:29,634] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:29,651] {logging_mixin.py:115} INFO - [2023-03-07 09:09:29,651] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:29,663] {logging_mixin.py:115} INFO - [2023-03-07 09:09:29,663] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:09:29.663522+00:00, run_after=2023-03-07T12:09:29.663522+00:00
+[2023-03-07 09:09:29,671] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.066 seconds
+[2023-03-07 09:09:55,731] {processor.py:153} INFO - Started process (PID=13198) to work on /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:55,732] {processor.py:641} INFO - Processing file /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-03-07 09:09:55,733] {logging_mixin.py:115} INFO - [2023-03-07 09:09:55,733] {dagbag.py:507} INFO - Filling up the DagBag from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:55,741] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-03-07 09:09:55,759] {logging_mixin.py:115} INFO - [2023-03-07 09:09:55,759] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-03-07 09:09:55,774] {logging_mixin.py:115} INFO - [2023-03-07 09:09:55,774] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-03-06T12:09:55.774735+00:00, run_after=2023-03-07T12:09:55.774735+00:00
+[2023-03-07 09:09:55,786] {processor.py:161} INFO - Processing /home/veri-pc/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.058 seconds
