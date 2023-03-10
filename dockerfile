@@ -1,32 +1,22 @@
-FROM ubuntu:20.04
+FROM apache/airflow:2.2.3-python3.8
 
-# Instala as dependências do Airflow
+USER root
+
+WORKDIR /app
+
+# Instale as dependências do Docker Compose
 RUN apt-get update && \
-    apt-get install --no-install-recommends -y python3-pip && \
-    pip3 install --no-cache-dir -U pip setuptools wheel && \
-    pip3 install --no-cache-dir apache-airflow==2.3.2
+    apt-get install -y --no-install-recommends \
+        docker-compose
 
-# Define o diretório de trabalho
-WORKDIR /projeto-airflow
+# Copie o arquivo docker-compose.yml para o diretório de trabalho
+COPY docker-compose.yml .
 
-# Copia o conteúdo do diretório atual para o diretório de trabalho
-COPY . .
+# Defina a variável de ambiente AIRFLOW_HOME
+ENV AIRFLOW_HOME=/app
 
-# Define a variável de ambiente AIRFLOW_HOME
-ENV AIRFLOW_HOME=/projeto-airflow
+# Exponha as portas padrão do Airflow
+EXPOSE 8080 5555 8793
 
-# Inicializa o banco de dados do Airflow
-RUN airflow db init
-
-# Cria um usuário administrador
-RUN airflow users create \
-    --username admin \
-    --password admin \
-    --firstname Admin \
-    --lastname User \
-    --role Admin \
-    --email admin@example.com
-
-# Define o comando padrão para executar o servidor da Web do Airflow
-CMD ["airflow", "webserver", "-p", "8080"]
-
+# Inicie o Airflow usando o Docker Compose
+CMD ["docker-compose", "up"]
