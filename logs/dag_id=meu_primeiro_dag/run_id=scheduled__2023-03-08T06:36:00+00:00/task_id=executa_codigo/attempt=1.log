@@ -1,0 +1,88 @@
+[2023-03-08 03:37:02,720] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-08T06:36:00+00:00 [queued]>
+[2023-03-08 03:37:02,724] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-08T06:36:00+00:00 [queued]>
+[2023-03-08 03:37:02,724] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-08 03:37:02,724] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-08 03:37:02,724] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-08 03:37:02,735] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): executa_codigo> on 2023-03-08 06:36:00+00:00
+[2023-03-08 03:37:02,736] {standard_task_runner.py:52} INFO - Started process 168698 to run task
+[2023-03-08 03:37:02,738] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'executa_codigo', 'scheduled__2023-03-08T06:36:00+00:00', '--job-id', '1065', '--raw', '--subdir', 'DAGS_FOLDER/cotacao_dolar.py', '--cfg-path', '/tmp/tmpcwtf7rdk', '--error-file', '/tmp/tmp2qqao5yu']
+[2023-03-08 03:37:02,738] {standard_task_runner.py:80} INFO - Job 1065: Subtask executa_codigo
+[2023-03-08 03:37:02,756] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-08T06:36:00+00:00 [running]> on host veripc-System-Product-Name
+[2023-03-08 03:37:02,786] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=executa_codigo
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-08T06:36:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-08T06:36:00+00:00
+[2023-03-08 03:37:10,114] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f36e5fe98d0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='economia.awesomeapi.com.br', port=443): Max retries exceeded with url: /last/USD-BRL (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f36e5fe98d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/veri-pc/Documentos/projeto_airflow/server/consultas/scrapping.py", line 11, in cotacao_dolar
+    response = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL')
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='economia.awesomeapi.com.br', port=443): Max retries exceeded with url: /last/USD-BRL (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f36e5fe98d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/veri-pc/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/veri-pc/Documentos/projeto_airflow/dags/cotacao_dolar.py", line 8, in cotacao
+    return cotacao.cotacao_dolar()
+  File "/home/veri-pc/Documentos/projeto_airflow/server/consultas/scrapping.py", line 23, in cotacao_dolar
+    raise Exception
+Exception
+[2023-03-08 03:37:10,133] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=meu_primeiro_dag, task_id=executa_codigo, execution_date=20230308T063600, start_date=20230308T063702, end_date=20230308T063710
+[2023-03-08 03:37:10,151] {standard_task_runner.py:92} ERROR - Failed to execute job 1065 for task executa_codigo (; 168698)
+[2023-03-08 03:37:10,183] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-03-08 03:37:10,190] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

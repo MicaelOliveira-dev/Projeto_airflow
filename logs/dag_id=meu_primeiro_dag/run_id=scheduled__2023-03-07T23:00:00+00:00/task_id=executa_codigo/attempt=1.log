@@ -1,0 +1,23 @@
+[2023-03-07 20:01:02,640] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-07T23:00:00+00:00 [queued]>
+[2023-03-07 20:01:02,644] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-07T23:00:00+00:00 [queued]>
+[2023-03-07 20:01:02,644] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 20:01:02,644] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-07 20:01:02,644] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-07 20:01:02,652] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): executa_codigo> on 2023-03-07 23:00:00+00:00
+[2023-03-07 20:01:02,654] {standard_task_runner.py:52} INFO - Started process 109933 to run task
+[2023-03-07 20:01:02,656] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'meu_primeiro_dag', 'executa_codigo', 'scheduled__2023-03-07T23:00:00+00:00', '--job-id', '609', '--raw', '--subdir', 'DAGS_FOLDER/cotacao_dolar.py', '--cfg-path', '/tmp/tmpvfh5oo90', '--error-file', '/tmp/tmpzkzx57xn']
+[2023-03-07 20:01:02,656] {standard_task_runner.py:80} INFO - Job 609: Subtask executa_codigo
+[2023-03-07 20:01:02,675] {task_command.py:370} INFO - Running <TaskInstance: meu_primeiro_dag.executa_codigo scheduled__2023-03-07T23:00:00+00:00 [running]> on host veripc-System-Product-Name
+[2023-03-07 20:01:02,705] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=meu_primeiro_dag
+AIRFLOW_CTX_TASK_ID=executa_codigo
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-07T23:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-07T23:00:00+00:00
+[2023-03-07 20:01:02,886] {python.py:173} INFO - Done. Returned value was: O Id da cotação é ID: 6407c22e81501f820d56b765
+[2023-03-07 20:01:02,901] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=meu_primeiro_dag, task_id=executa_codigo, execution_date=20230307T230000, start_date=20230307T230102, end_date=20230307T230102
+[2023-03-07 20:01:02,948] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-07 20:01:02,964] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
